@@ -173,3 +173,8 @@ and more.
 
 https://gitlab.com/ternaris/rosbags
 
+## Gazebo installation
+
+https://gazebosim.org/docs/harmonic/install_ubuntu
+
+
