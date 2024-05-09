@@ -25,11 +25,11 @@ Follow the guide [here for ros2 humble](https://docs.ros.org/en/humble/Installat
 Installation went smoothly on Ubuntu 22.04 and Pop-OS 22.04.
 
 
-
     sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
     sudo apt update && sudo apt install ros-dev-tools
     sudo apt install ros-iron-desktop
+
 Do this in order to not having to source the ros setup.sh in every newly opened terminal.
 
     echo "source /opt/ros/[the_version_most_often_used]/setup.bash" >> ~/.bashrc
@@ -64,7 +64,29 @@ ROS domain ID:
 
 I used 0 as it seems to be the default one to have turtlesim (see next in the tutorials) to respond to keyboard commands.
 
+## RVIZ2
+
+https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html
+
+Several sources say it should be installed along with ROS2 but for me it wasn't.
+
+I did:
+
+    sudo apt install ros-humble-rviz2
+
+Test with:
+
+    ros2 run rviz2 rviz2
+
+
+
 # Tutorials
+
+## workspaces
+
+https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
+
+
 
 ## turtlesim
 
@@ -155,6 +177,7 @@ Since we know that /teleop_turtle publishes data to /turtlesim over the /turtle1
     ros2 topic echo /turtle1/cmd_vel
 
 In the 2nd terminal, where the turtle_teleop_key topic is running, press the arrow keys; the result will be echoes in the 5th terminal.
+
 # How-To
 
 ## ros bags convertions
@@ -177,4 +200,26 @@ https://gitlab.com/ternaris/rosbags
 
 https://gazebosim.org/docs/harmonic/install_ubuntu
 
+# git repos
 
+## building a simple robot controller
+
+https://github.com/tingelst/ros2_seminar_spring_2020_demos
+
+building a simple robot controller
+
+
+## ROS2 point cloud demo
+
+https://github.com/SebastianGrans/ROS2-Point-Cloud-Demo
+
+
+threw open3D not found.
+
+workon pyrobotics
+pip install open3d 
+Very long download at low DL rate (<100kB/s)
+
+Adapt the following to humbe:
+
+    dpkg -L ros-foxy-rclpy | grep /lib/python | cut -d\/ -f6 | sort -u
