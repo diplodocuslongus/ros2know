@@ -200,6 +200,65 @@ https://gitlab.com/ternaris/rosbags
 
 https://gazebosim.org/docs/harmonic/install_ubuntu
 
+
+# Using ROS with python
+
+## managing packages, virtual environment
+
+    echo $PYTHONPATH
+
+    /home/ludofw/ros2_ws/build/pcd_demo:/home/ludofw/ros2_ws/install/pcd_demo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages
+
+    mkdir -p ~/colcon_venv/src
+    cd ~/colcon_venv/
+
+Verify the path to the python executable:
+
+    which python3
+
+    python3 -m venv ros2_ptcl --system-site-packages --symlinks
+
+Activate the virtual environment:
+
+    source ros2_ptcl/bin/activate
+
+The path to the python executable should now point to :
+
+    which python
+
+    ~/colcon_venv/ros2_ptcl/bin/python
+
+Same for pip:
+
+    which pip
+
+    ~/colcon_venv/ros2_ptcl/bin/pip
+
+Then install the desired packages:
+
+    pip install open3d
+
+To ensure that `colcon` doesn't actually build the virtual environment:
+
+        touch ./ros2_ptcl/COLCON_IGNORE
+
+Add this to the setup.cfg file of your package (here the package is located in `~/ros2_ws/src`):
+
+    [build_scripts]
+    executable = /usr/bin/env python3
+
+And then build the package, for example:
+
+    colcon build --packages-select pcd_demo
+
+
+https://docs.ros.org/en/humble/How-To-Guides/Using-Python-Packages.html
+https://medium.com/ros2-tips-and-tricks/running-ros2-nodes-in-a-python-virtual-environment-b31c1b863cdb
+https://robotics.stackexchange.com/questions/98214/how-to-use-python-virtual-environments-with-ros2
+https://docs.python.org/3/library/venv.html
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
+https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
+
 # git repos
 
 ## building a simple robot controller
@@ -213,13 +272,89 @@ building a simple robot controller
 
 https://github.com/SebastianGrans/ROS2-Point-Cloud-Demo
 
+Installation
 
-threw open3D not found.
+This is how I did it, for ROS2 humble.
 
-workon pyrobotics
-pip install open3d 
-Very long download at low DL rate (<100kB/s)
+Create a workspace:
 
-Adapt the following to humbe:
+    mkdir -p ~/ros2_ws/src
+    cd ros2_ws/src/
 
-    dpkg -L ros-foxy-rclpy | grep /lib/python | cut -d\/ -f6 | sort -u
+Clone the repository:
+
+    git clone git@github.com:SebastianGrans/ROS2-Point-Cloud-Demo.git
+
+The python package Open3d is required, I installed it in a virtual environment using `venv`. See the details in the section 
+managing packages, virtual environment.
+
+Then build the package and source it:
+
+    colcon build --packages-select pcd_demo
+    source install/local_setup.sh
+
+Then use a launch file (automatically starts RViz):
+
+    ros2 launch pcd_demo pcd_publisher_demo.launch.py
+
+RViz should now show a spinning Utah teapot, in color.
+
+![teapot_color](img/teapot_point_cloud_ros2_rviz_autoLaunch.png)
+
+Or launch it manually in 2 steps and using 2 terminals:
+
+    ros2 run pcd_demo pcd_publisher_node ~/ros2_ws/src/ROS2-Point-Cloud-Demo/resource/teapot.ply
+
+In a new terminal:
+
+    ros2 run rviz2 rviz2
+
+For some reason (likely some rviz topic settings), the teapot has no color.
+
+![teapot](img/teapot_point_cloud_ros2_rviz.png)
+
+
+### Issues, errors
+
+_ModuleNotFoundError: No module named 'open3d'_
+
+open3D needs to be installed for the python used by the ros package.
+Follow the steps in section managing packages, virtual environment.
+
+More complete error message:
+
+When launching automatically (with the python script):
+
+    [pcd_publisher_node-2]     import open3d as o3d
+    [pcd_publisher_node-2] ModuleNotFoundError: No module named 'open3d'
+    [ERROR] [pcd_publisher_node-2]: process has died [pid 78202, exit code 1, cmd '/home/ludofw/ros2_ws/install/pcd_demo/lib/pcd_demo/pcd_publisher_node /home/ludofw/ros2_ws/install/pcd_demo/share/pcd_demo/resource/teapot.ply --ros-args -r __node:=pcd_publisher_node'].
+    [INFO] [rviz2-1]: process has finished cleanly [pid 78200]
+
+When launching manually:
+
+    File "/home/ludofw/ros2_ws/build/pcd_demo/pcd_demo/pcd_publisher/pcd_publisher_node.py", line 11, in <module>
+    import open3d as o3d
+    ModuleNotFoundError: No module named 'open3d'
+
+_AssertionError: File doesn't exist._
+
+
+    assert os.path.exists(sys.argv[1]), "File doesn't exist."
+    AssertionError: File doesn't exist.
+
+Make sure the path to the python executable is correct.
+
+The readme suggest a workspace path `~/dev_ws`, if your path is different, adjust accordingly, I used `~/ros2_ws`, so the full command is:
+
+    ros2 run pcd_demo pcd_publisher_node ~/ros2_ws/src/ROS2-Point-Cloud-Demo/resource/teapot.ply
+
+
+Find where ros-humble-rclpy is:
+
+    dpkg -L ros-humble-rclpy | grep /lib/python 
+
+# How-To
+
+## List all installed ROS packages
+
+    ros2 pkg list
