@@ -200,6 +200,12 @@ https://gitlab.com/ternaris/rosbags
 
 https://gazebosim.org/docs/harmonic/install_ubuntu
 
+Just one line:
+
+curl -sSL http://get.gazebosim.org | sh
+
+Then run `gazebo`
+
 
 # Using ROS with python
 
