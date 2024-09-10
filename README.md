@@ -206,6 +206,27 @@ curl -sSL http://get.gazebosim.org | sh
 
 Then run `gazebo`
 
+Installation with ROS:
+
+check current ros distro:
+
+    $ printenv ROS_DISTRO 
+    humble
+    $ sudo apt install ros-${ROS_DISTRO}-ros-gz
+
+https://gazebosim.org/docs/latest/ros_installation/
+
+Install gazebo ros2 core tools:
+
+    sudo apt install ros-humble-ros-core
+    sudo apt install ros-humble-geometry2
+
+Test gazebo has been installed:
+
+Tutorial to setup a robot:
+
+https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Simulation-Gazebo.html
+
 
 # Using ROS with python
 

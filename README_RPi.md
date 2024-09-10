@@ -2,7 +2,7 @@ Note: all versions of ROS discussed here are ROS2.
 So ROS assumes it is ROS2.
 
 
-Installing ROS on the raspberry pi
+# Installing ROS on the raspberry pi
 
 Ideal is to use Ubuntu rather than the RaspberryPi OS.
 
