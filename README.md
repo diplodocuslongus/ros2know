@@ -300,6 +300,13 @@ building a simple robot controller
 
 https://www.youtube.com/watch?v=idQb2pB-h2Q
 
+Commands to launch (use tmux to split window)
+
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+ros2 run turtlebot3_teleop teleop_keyboard
+
+This is at https://youtu.be/idQb2pB-h2Q?t=1057
 
 
 ## ROS2 point cloud demo
