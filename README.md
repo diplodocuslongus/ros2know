@@ -286,13 +286,20 @@ https://docs.python.org/3/library/venv.html
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
 https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
 
-# git repos
+# git repos and tutorials
+
+Some interesting, usefull and/or instructive repos I have explored (or yet to explore)
 
 ## building a simple robot controller
 
 https://github.com/tingelst/ros2_seminar_spring_2020_demos
 
 building a simple robot controller
+
+## nav2 crash course (video)
+
+https://www.youtube.com/watch?v=idQb2pB-h2Q
+
 
 
 ## ROS2 point cloud demo
