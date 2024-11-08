@@ -180,6 +180,14 @@ In the 2nd terminal, where the turtle_teleop_key topic is running, press the arr
 
 # How-To
 
+## install colcon
+
+colcon should come together with the ros2 installation, if it didn't (it wasn't on the sys76) then do:
+
+sudo apt install python3-colcon-common-extensions
+
+See: https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
+
 ## ros bags convertions
 
 The utility rosbags allows:
