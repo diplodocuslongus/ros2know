@@ -55,7 +55,7 @@ And on the rpi, we do:
     source /opt/ros/jazzy/setup.bash
     ros2 run demo_nodes_py listener
 
-And we will the the listener messages.
+And we will see the listener messages.
 
 
 https://robofoundry.medium.com/oak-d-lite-camera-ros2-setup-1e74ed03350d
