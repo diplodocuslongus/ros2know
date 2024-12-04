@@ -75,5 +75,28 @@ We have to use a docker.
 
     
 
+# Packages installs
 
+(note: for usage, see README)
+
+## cv-bridge
+
+sudo apt install ros-jazzy-cv-bridge
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package ros-jazzy-cv-bridge
+
+So we have to install from source.
+
+    cd ROS2_WS/
+    mkcd cv_bridge
+    mkcd src
+    git clone https://github.com/ros-perception/vision_opencv.git -b humble
+    cd ..
+    colcon build --symlink-install
+    source install/local_setup.bash 
+    colcon test
+
+The test build finished successfully.
 

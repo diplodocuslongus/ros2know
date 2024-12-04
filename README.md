@@ -86,6 +86,9 @@ Test with:
 
 https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
 
+## ROS2 packages
+
+https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 
 
 ## turtlesim
@@ -402,8 +405,98 @@ Find where ros-humble-rclpy is:
 
     dpkg -L ros-humble-rclpy | grep /lib/python 
 
+
+# ROS2 and opencv
+
+There are 2 ways to publish image (and do much more) from opencv to ROS. 
+- use cv_bridge (the simplest and most convenient)
+- use sensor-msgs and fill the proper data
+
+We'll see how to use cv_bridge (I'm not yet ready to do the other way)
+
+## cv_bridge
+
+### installation
+
+Make sure opencv is installed:
+
+pkg-config --modversion opencv4
+on one of the rpi5 (with depthai luxonis) I get 4.6.0
+
+On the sys76, it's 4.10 (opencv built from source).
+
+If nothing is returned, make sure opencv is installed (build from source or sudo apt or other)
+
+sudo apt install libopencv-dev python3-opencv
+
+
+    sudo apt install ros-$ROS_DISTRO-cv-bridge
+
+or if one wants to be specific:
+
+    sudo apt install ros-jazzy-cv-bridge
+
+On the raspberry pi bookworkm, there's no apt candidate so we have to install from source.
+
+    cd ROS2_WS/
+    mkcd cv_bridge
+    mkcd src
+    git clone https://github.com/ros-perception/vision_opencv.git -b humble
+    cd ..
+    colcon build --symlink-install
+    source install/local_setup.bash 
+    colcon test
+
+The test build finished successfully.
+
+### usage
+
+Python
+
+Here is a hello world which creates an empty image and add noise to it, then publish it.
+It can be seen with rviz2, add topic, image.
+
+    mkcd cv_bridge_helloworld
+    ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name img_cvbridge cvbridge_helloworld_py
+    cd cvbridge_helloworld_py/cd cvbridge_helloworld_py/
+    vi img_cvbridge.py 
+
+See the listing.
+
+    cd ..
+
+We need to source cv_bridge setup.bash script, and of course the current package install.bash script.
+
+    source install/cvbridge_helloworld_py/
+    source install/setup.bash 
+    ros2 run cvbridge_helloworld_py img_cvbridge 
+
+Verify the topic is being published:
+
+    ros2 topic list
+
+**possible Error**
+
+`ModuleNotFoundError: No module names 'cv_bridge'`
+
+We need to source the install of cv_bridge, haven't found how to make this permanent (besides adding it in ~/.bashrc)
+
+    source path/to/ROS2_WS/cv_bridge/install/local_setup.bash
+
+
+
+References:
+- https://github.com/ros-perception/vision_opencv
+- https://github.com/ros-perception/vision_opencv/tree/humble/cv_bridge
+- https://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython
+- https://index.ros.org/p/cv_bridge/
+
 # How-To
 
-## List all installed ROS packages
+**List all installed ROS packages**
 
     ros2 pkg list
+
+**List topics currently being published**
+
+    ros2 topic list
