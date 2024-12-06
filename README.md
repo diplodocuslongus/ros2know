@@ -297,6 +297,15 @@ https://docs.python.org/3/library/venv.html
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
 https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe
 
+## import local package or module
+
+See example in warehouse_nav, where a local line detection package is imported.
+-> Provide the name of the package dot (`.`) name_of_the_module to import
+
+See also:
+
+https://stackoverflow.com/questions/57426715/import-modules-in-package-in-ros2
+
 # git repos and tutorials
 
 Some interesting, usefull and/or instructive repos I have explored (or yet to explore)
