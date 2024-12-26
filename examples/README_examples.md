@@ -1,5 +1,28 @@
 # examples
 
+## visualization topics
+
+Allows to show spheres, etc...
+
+In rviz, make sure to set the name of the "Fixed frame" to that set in the code, e.g. base_link, or whatever name is chosen.
+
+This is defined by frame_id in the code:
+
+self.marker.header.frame_id = '/base_link'
+
+Code inspired by: https://docs.hello-robot.com/0.3/ros2/example_4/
+and:
+https://wiki.ros.org/rviz/DisplayTypes/Marker (the doc is for ros1 but most seem to apply to ros2)
+and also:
+https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/Marker-Display-types/Marker-Display-types.html
+
+See also this package:
+https://index.ros.org/p/rviz_visual_tools/
+
+About visualization, see also:
+https://docs.m2stud.io/cs/ros_additional/06-L3-rviz/
+
+
 ## using cv_bridge
 
 ### python
