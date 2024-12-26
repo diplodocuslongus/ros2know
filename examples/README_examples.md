@@ -19,6 +19,11 @@ https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/Marker-Display-types/
 See also this package:
 https://index.ros.org/p/rviz_visual_tools/
 
+Thgis video (ros1 but may be interesting it uses sphere_list):
+https://www.youtube.com/watch?v=Cy_oU54tPzE
+and code:
+https://drive.google.com/file/d/1yGD5ESu07pDXoXKPt-2t-oFtxU3c7COk/view
+
 About visualization, see also:
 https://docs.m2stud.io/cs/ros_additional/06-L3-rviz/
 
