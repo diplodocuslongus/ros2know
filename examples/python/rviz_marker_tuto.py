@@ -7,6 +7,10 @@
 # topics: balloon, arrow (custom name), balloon_list
 # info on class inheritence:
 # https://www.reddit.com/r/learnpython/comments/ckszou/python_crash_course_inheritance_typeerror_object/
+# notes on quaternion / reminder: icos(θ/2)+sin(θ/2)(ivx​+jvy​+kvz​).
+# rotataion of theta around a vector vx, vy,vz:
+# q =cos(θ/2)+sin(θ/2)(ivx+jvy+kvz)
+# remember the quaternion must be valid (i.e exist) and normalized
 
 
 import rclpy
@@ -25,8 +29,6 @@ class ArrowNode:
 class Arrow(ArrowNode):
     def __init__(self,nodename,topicname):
     #def __init__(self,nodename='test'):
-        # define the node name
-        #super().__init__('f')
         super().__init__(nodename,topicname)
         self.publisher_ = self.arrownode.create_publisher(Marker, self.arrowtopicname, 10)  
         self.marker = Marker()
@@ -52,6 +54,7 @@ class Arrow(ArrowNode):
         #p.x,p.y,p.z = 1.0,1.0,1.0
         #self.marker.points.append(p)
         self.arrownode.get_logger().info("Publishing the arrow topic. Use RViz to visualize.")
+
     def publish_marker(self):
         self.publisher_.publish(self.marker)
 
@@ -65,6 +68,79 @@ class Arrow(ArrowNode):
         self.marker.scale.z = 0.1 # arrow head "height"
         self.marker.points.append(startpt)
         self.marker.points.append(endpt)
+
+
+class LineList(Node):
+    def __init__(self):
+        # define the node name
+        super().__init__('rviz_marker_linelist')
+        self.publisher_ = self.create_publisher(Marker, 'line_list', 10)  
+
+        self.marker = Marker()
+        self.marker.header.frame_id = '/base_link'
+        #self.marker.header.frame_id = '/map'
+        self.marker.header.stamp = self.get_clock().now().to_msg()
+        self.marker.type = self.marker.LINE_LIST
+        self.marker.id = 0
+        self.marker.action = self.marker.ADD
+        self.marker.scale.x = 0.1 # only scale x is used for line strip markers, it's the width of the line
+        self.marker.color.r = 1.0
+        self.marker.color.g = 1.0
+        self.marker.color.b = 1.0
+        self.marker.color.a = 1.0
+        self.marker.pose.orientation.w = 1.0
+        self.marker.pose.position.x = 0.0
+        self.marker.pose.position.y = 1.0
+        self.marker.pose.position.z = 1.0
+        # create a default line
+        p0 = Point(x=-2.0,y=2.0,z=0.0)
+        p1 = Point(x=-2.0,y=2.0,z=1.0)
+        self.marker.points.append(p0)
+        self.marker.points.append(p1)
+        self.get_logger().info("Publishing the line_strip topic. ")
+
+    def publish_marker(self):
+        self.publisher_.publish(self.marker)
+
+    def add_line(self,linept0,linept1):
+        self.marker.points.append(linept0)
+        self.marker.points.append(linept1)
+
+    def add_point(self,pt2add):
+        self.marker.points.append(pt2add)
+class LineStrip(Node):
+    def __init__(self):
+        # define the node name
+        super().__init__('rviz_marker_linestrip')
+        self.publisher_ = self.create_publisher(Marker, 'line_strip', 10)  
+
+        self.marker = Marker()
+        self.marker.header.frame_id = '/base_link'
+        #self.marker.header.frame_id = '/map'
+        self.marker.header.stamp = self.get_clock().now().to_msg()
+        self.marker.type = self.marker.LINE_STRIP
+        self.marker.id = 0
+        self.marker.action = self.marker.ADD
+        self.marker.scale.x = 0.1 # only scale x is used for line strip markers, it's the width of the line
+        self.marker.color.r = 1.0
+        self.marker.color.g = 1.0
+        self.marker.color.b = 0.0
+        self.marker.color.a = 1.0
+        self.marker.pose.orientation.w = 1.0
+        self.marker.pose.position.x = 0.0
+        self.marker.pose.position.y = 1.0
+        self.marker.pose.position.z = 1.0
+        p = Point()
+        p.x = 2.0
+        p.y = 0.0
+        p.z = 0.0
+        self.marker.points.append(p)
+        self.get_logger().info("Publishing the line_strip topic. ")
+    def publish_marker(self):
+        self.publisher_.publish(self.marker)
+
+    def add_point(self,pt2add):
+        self.marker.points.append(pt2add)
 
 class BalloonList(Node):
     def __init__(self):
@@ -123,6 +199,7 @@ class Balloon(Node):
         self.marker.color.g = 0.0
         self.marker.color.b = 0.0
         self.marker.color.a = 1.0
+        self.marker.ns = 'ballon_namesp'
         self.marker.pose.position.x = 0.0
         self.marker.pose.position.y = 0.0
         self.marker.pose.position.z = 2.0
@@ -148,15 +225,28 @@ def main(args=None):
     balloonlist.add_point(p)
     balloonlist.add_point(p0)
     balloonlist.add_point(Point(x=0.1,y=0.1,z=0.1))
+    linestrip = LineStrip()
+    p0 = Point(x=2.0,y=2.0,z=1.0)
+    p = Point()
+    p.x,p.y,p.z = 2.0,2.0,0.0
+    linestrip.add_point(p)
+    linestrip.add_point(p0)
+    linestrip.add_point(Point(x=2.0,y=0.0,z=2.0))
+    linelist = LineList()
+    linelist.add_line(Point(x=2.0,y=0.0,z=0.0),Point(x=2.0,y=0.0,z=2.0))
     while rclpy.ok():
         arrow.publish_marker()
         arrow2.publish_marker()
         balloon.publish_marker()
         balloonlist.publish_marker()
+        linestrip.publish_marker()
+        linelist.publish_marker()
     arrow.destroy_node()  
     arrow2.destroy_node()  
     balloon.destroy_node()  
     balloonlist.destroy_node()  
+    linestrip.destroy_node()  
+    linelist.destroy_node()  
     rclpy.shutdown()
 if __name__ == '__main__':
     main()

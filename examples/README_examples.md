@@ -2,6 +2,22 @@
 
 ## visualization topics
 
+See:
+https://github.com/ros2/common_interfaces/blob/rolling/visualization_msgs/msg/Marker.msg
+
+and 
+https://wiki.ros.org/rviz/DisplayTypes/Marker (the doc is for ros1 but most seem to apply to ros2)
+
+### Capabilities
+
+it's possible to show stl files:
+https://robotics.stackexchange.com/questions/111255/ros2-humble-rviz-not-loading-stl-file
+
+stl from openscad (dig more into this)
+https://github.com/ros2/rviz/issues/712
+
+### examples
+
 Allows to show spheres, etc...
 
 In rviz, make sure to set the name of the "Fixed frame" to that set in the code, e.g. base_link, or whatever name is chosen.
@@ -12,7 +28,6 @@ self.marker.header.frame_id = '/base_link'
 
 Code inspired by: https://docs.hello-robot.com/0.3/ros2/example_4/
 and:
-https://wiki.ros.org/rviz/DisplayTypes/Marker (the doc is for ros1 but most seem to apply to ros2)
 and also:
 https://docs.ros.org/en/humble/Tutorials/Intermediate/RViz/Marker-Display-types/Marker-Display-types.html
 
