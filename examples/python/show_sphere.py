@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# code from:
+# code derived from:
 # https://docs.hello-robot.com/0.3/ros2/example_4/
 
 import rclpy
@@ -18,7 +18,6 @@ class Balloon(Node):
         self.marker.header.frame_id = '/base_link'
         self.marker.header.stamp = self.get_clock().now().to_msg()
         self.marker.type = self.marker.SPHERE
-        self.marker.type = self.marker.SPHERE_LIST
         self.marker.id = 0
         self.marker.action = self.marker.ADD
         self.marker.scale.x = 0.5
