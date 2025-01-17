@@ -1,5 +1,33 @@
 # examples
 
+## how to use
+
+### pyhon
+
+Create a ros workspace directory anywhere.
+
+    mkcd ~/myros_ws
+
+Create a package of the desired name:
+
+    ros2 pkg create myrosexamplepkgname --build-type ament_python
+
+copy the .py file from the example to myrosexamplepkgname/myrosexamplepkgname, for exampple:
+
+    cp examples/python/example.py ~/myros_ws/myrosexamplepkgname/myrosexamplepkgname/.
+
+Edit the setup.py to include the node name and path to executable (or replace the created setup.py with the one in the examples folder, if a setup.py is included).
+
+iexample, in setup.py for the rviz_marker_tuto:
+
+        entry_points={
+        'console_scripts': [
+                    'rvizmarker = rviz_marker.rviz_marker_tuto:main'
+        ],
+
+
+
+
 ## visualization topics
 
 See:
