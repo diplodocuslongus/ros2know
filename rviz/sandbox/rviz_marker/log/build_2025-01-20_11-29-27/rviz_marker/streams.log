@@ -1,0 +1,29 @@
+[0.521s] Invoking command in '/home/ludofw/ROS2_workspaces/sandbox/rviz_marker': PS1=$(__virtualenv_ps1) gonze:\[\e[42m\]\W/\[\e[0m\] \[\e[91m\]$(parse_git_branch) \[\e[00m\]$ PYTHONPATH=/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/rviz_marker build --build-base /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build install --record /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/install.log --single-version-externally-managed install_data
+[0.672s] running egg_info
+[0.743s] writing build/rviz_marker/rviz_marker.egg-info/PKG-INFO
+[0.743s] writing dependency_links to build/rviz_marker/rviz_marker.egg-info/dependency_links.txt
+[0.744s] writing entry points to build/rviz_marker/rviz_marker.egg-info/entry_points.txt
+[0.744s] writing requirements to build/rviz_marker/rviz_marker.egg-info/requires.txt
+[0.744s] writing top-level names to build/rviz_marker/rviz_marker.egg-info/top_level.txt
+[0.765s] reading manifest file 'build/rviz_marker/rviz_marker.egg-info/SOURCES.txt'
+[0.765s] writing manifest file 'build/rviz_marker/rviz_marker.egg-info/SOURCES.txt'
+[0.765s] running build
+[0.766s] running build_py
+[0.766s] copying rviz_marker/rviz_test2.py -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker
+[0.766s] copying rviz_marker/__init__.py -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker
+[0.766s] copying rviz_marker/rviz_marker_tuto.py -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker
+[0.766s] running install
+[0.769s] running install_lib
+[0.779s] copying /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker
+[0.779s] byte-compiling /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py to rviz_marker_tuto.cpython-310.pyc
+[0.781s] running install_data
+[0.781s] copying resource/rviz_marker -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/share/ament_index/resource_index/packages
+[0.781s] copying package.xml -> /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker
+[0.781s] running install_egg_info
+[0.792s] removing '/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker-0.0.0-py3.10.egg-info' (and everything under it)
+[0.792s] Copying build/rviz_marker/rviz_marker.egg-info to /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker-0.0.0-py3.10.egg-info
+[0.792s] running install_scripts
+[0.816s] Installing rvizmarker script to /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker
+[0.816s] Installing rviztest script to /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker
+[0.816s] writing list of installed files to '/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/install.log'
+[0.838s] Invoked command in '/home/ludofw/ROS2_workspaces/sandbox/rviz_marker' returned '0': PS1=$(__virtualenv_ps1) gonze:\[\e[42m\]\W/\[\e[0m\] \[\e[91m\]$(parse_git_branch) \[\e[00m\]$ PYTHONPATH=/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ludofw/ROS2_workspaces/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/rviz_marker build --build-base /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/build install --record /home/ludofw/ROS2_workspaces/sandbox/rviz_marker/build/rviz_marker/install.log --single-version-externally-managed install_data
