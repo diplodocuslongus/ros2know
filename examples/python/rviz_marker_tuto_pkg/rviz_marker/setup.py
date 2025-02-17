@@ -14,7 +14,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='ludofw',
-    maintainer_email='hinoki.kuaimu@gmail.com',
+    maintainer_email='hk@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
