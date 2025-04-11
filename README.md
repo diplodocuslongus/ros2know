@@ -588,3 +588,34 @@ References:
 **List topics currently being published**
 
     ros2 topic list
+
+# Error messages and solutions
+
+## time stamp mismatch
+
+In /home/ludos7/Programs/mygitrepos/ros2know/sandbox, one of the uav_* code, including the animation:
+
+Message being displayed when I was running the node:
+
+    [INFO] [1744363288.395413001] [map_point_publisher]: Transform exception: Lookup would require extrapolation into the future.  Requested time 1744363279.187982 but the latest data is at time 1744363276.187657, when looking up transform from frame [body] to frame [map]
+
+It means that when the map_point_publisher node tried to look up the transformation between the body frame and the map frame at the specific timestamp of the received point cloud, the latest transform available in the tf2 buffer was older than that timestamp.
+
+Why this happens and how to fix it:
+
+This issue typically arises due to slight timing differences between when the point cloud message is generated and when the corresponding transform is broadcast. The subscriber might receive a point cloud message whose timestamp refers to a time slightly in the future relative to the latest transform the listener has received.
+
+To address this:
+
+1. Lookup Transform at the Latest Available Time:
+Instead of trying to look up the transform at the exact timestamp of the point cloud, you can try looking it up at the latest available time in the buffer. This might introduce a small delay or inaccuracy if the UAV is moving quickly, but it can resolve the extrapolation error.
+
+Modify the publish_map_point function in map_point_publisher.py as follows:
+
+    rclpy.time.Time(),  # Lookup at the latest available time
+
+2. Lookup Transform at the Time of the Trajectory Point (Potentially More Consistent):
+
+Since you are also subscribing to the trajectory points, you could try using the timestamp of the latest received trajectory point for the transform lookup. This might be more temporally aligned with the UAV's motion.
+
+This option didn't work. 
