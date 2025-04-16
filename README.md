@@ -210,75 +210,70 @@ https://gitlab.com/ternaris/rosbags
 
 ## play ros2 bag recorded on jazzy from humble
 
-Solution:
-
-use docker.
+Solution: use docker.
 
 Install docker and jazzy desktop container.
 
 https://docs.docker.com/engine/install/ubuntu/
 
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
+    # Add Docker's official GPG key:
+    sudo apt-get update
+    sudo apt-get install ca-certificates curl
+    sudo install -m 0755 -d /etc/apt/keyrings
+    sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+    sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt-get update
+    # Add the repository to Apt sources:
+    echo \
+      "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+      $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+      sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    sudo apt-get update
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 Verify that the installation is successful by running the hello-world image:
 
- sudo docker run hello-world
+    sudo docker run hello-world
 
 Manage Docker as a non-root user
 
 To create the docker group and add your user:
+Create the docker group.
 
-    Create the docker group.
-
- sudo groupadd docker
+    sudo groupadd docker
 
 Add your user to the docker group.
 
- sudo usermod -aG docker $USER
+    sudo usermod -aG docker $USER
 
 Log out and log back in so that your group membership is re-evaluated.
 
-    If you're running Linux in a virtual machine, it may be necessary to restart the virtual machine for changes to take effect.
-
 You can also run the following command to activate the changes to groups:
 
- newgrp docker
+    newgrp docker
 
 Verify that you can run docker commands without sudo.
 
- docker run hello-world
+    docker run hello-world
 
 Then:
 
-Assuming the rosbag directory (containg yaml and mcap files) is in Downloads, mount ~/Downloads to  bag_dir/ :
+Assuming the rosbag directory (containg yaml and mcap files) is in Downloads, mount `~/Downloads` to  `bag_dir/` :
 
-docker run -it -v /home/ludos7/Downloads/:/bag_dir osrf/ros:jazzy-desktop
+    docker run -it -v /home/ludos7/Downloads/:/bag_dir osrf/ros:jazzy-desktop
 
 play the ros bag
 
-root@9d0c916dede9:/# ros2 bag play bag_dir/rosbag2_2025_03_28-12_56_17
+    root@9d0c916dede9:/# ros2 bag play bag_dir/rosbag2_2025_03_28-12_56_17
 
 get info:
 
-root@9d0c916dede9:/# ros2 bag info bag_dir/rosbag2_2025_03_28-12_56_17
+    root@9d0c916dede9:/# ros2 bag info bag_dir/rosbag2_2025_03_28-12_56_17
 
 And from another terminal outside of docker:
 
-ros2 topic list 
+    ros2 topic list 
 
 (to see the topics)
 
