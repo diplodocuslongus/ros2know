@@ -38,10 +38,12 @@ monoLeft.setCamera("left")
 monoLeft.setResolution(dai.MonoCameraProperties.SensorResolution.THE_480_P)
 monoRight.setCamera("right")
 monoRight.setResolution(dai.MonoCameraProperties.SensorResolution.THE_480_P)
-
+LEFT_SOCKET = dai.CameraBoardSocket.CAM_B # that's left, LEFT is deprecated
 # StereoDepth properties
 stereo.initialConfig.setConfidenceThreshold(255)
 stereo.initialConfig.setLeftRightCheck(True)
+stereo.setDepthAlign(LEFT_SOCKET)
+# stereo.initialConfig.setDepthAlign(LEFT_SOCKET)
 stereo.initialConfig.setSubpixel(False)
 
 # ImageManip nodes for cropping
