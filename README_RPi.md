@@ -69,9 +69,24 @@ You can now install ROS 2 using the normal binary installation instructions for 
 And here:
 https://docs.ros.org/en/humble/How-To-Guides/Installing-on-Raspberry-Pi.html#ubuntu-linux-on-raspberry-pi-with-binary-ros-2-install
 
-On a RPi running RaspberryPi OS
+## On a RPi running RaspberryPi OS
 
-We have to use a docker.
+
+### custom .deb package
+
+https://github.com/Ar-Ray-code/rpi-bullseye-ros2
+
+wget https://s3.ap-northeast-1.wasabisys.com/download-raw/dpkg/ros2-desktop/debian/bookworm/ros-jazzy-desktop-0.3.2_20240525_arm64.deb
+sudo apt install ./ros-jazzy-desktop-0.3.2_20240525_arm64.deb
+pip install --break-system-packages empy==3.3.4
+sudo pip install --break-system-packages vcstool colcon-common-extensions
+
+The first command will end with 
+
+N: Download is performed unsandboxed as root as file '/home/pi/Downloads/ros-jazzy-desktop-0.3.2_20240525_arm64.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)
+
+
+### using docker.
 
     
 
