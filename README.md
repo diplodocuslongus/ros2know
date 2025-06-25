@@ -1,3 +1,43 @@
+<!-- vim-markdown-toc Marked -->
+
+* [ROS2know](#ros2know)
+* [Introduction](#introduction)
+* [Installation](#installation)
+    * [RVIZ2](#rviz2)
+* [Tutorials](#tutorials)
+    * [workspaces](#workspaces)
+    * [ROS2 packages](#ros2-packages)
+    * [turtlesim](#turtlesim)
+    * [nodes](#nodes)
+    * [ROS Topics](#ros-topics)
+* [Plugins](#plugins)
+    * [PlotJuggler](#plotjuggler)
+        * [using:](#using:)
+* [rosbags](#rosbags)
+* [How-To](#how-to)
+    * [record rosbags](#record-rosbags)
+    * [install colcon](#install-colcon)
+    * [ros bags convertions](#ros-bags-convertions)
+    * [play ros2 bag recorded on jazzy from humble](#play-ros2-bag-recorded-on-jazzy-from-humble)
+    * [Gazebo installation](#gazebo-installation)
+* [Using ROS with python](#using-ros-with-python)
+    * [managing packages, virtual environment](#managing-packages,-virtual-environment)
+    * [import local package or module](#import-local-package-or-module)
+* [git repos and tutorials](#git-repos-and-tutorials)
+    * [building a simple robot controller](#building-a-simple-robot-controller)
+    * [nav2 crash course (video)](#nav2-crash-course-(video))
+    * [ROS2 point cloud demo](#ros2-point-cloud-demo)
+        * [Issues, errors](#issues,-errors)
+* [ROS2 and opencv](#ros2-and-opencv)
+    * [cv_bridge](#cv_bridge)
+        * [installation](#installation)
+        * [usage](#usage)
+* [How-To](#how-to)
+* [Error messages and solutions](#error-messages-and-solutions)
+    * [when updating: error key](#when-updating:-error-key)
+    * [time stamp mismatch](#time-stamp-mismatch)
+
+<!-- vim-markdown-toc -->
 # ROS2know
 
 These are notes dedicated to my learning ROS, the Robotic Operating System.
@@ -181,7 +221,75 @@ Since we know that /teleop_turtle publishes data to /turtlesim over the /turtle1
 
 In the 2nd terminal, where the turtle_teleop_key topic is running, press the arrow keys; the result will be echoes in the 5th terminal.
 
+# Plugins
+
+## PlotJuggler
+
+Standalone Time Series Visualization Tool, but also available as a ros plugin.
+
+To install as a plugin:
+
+Install the ROS packages with:
+
+    sudo apt install ros-$ROS_DISTRO-plotjuggler-ros
+
+or, if are using ROS2:
+
+    ros2 run plotjuggler plotjuggler
+
+https://github.com/facontidavide/PlotJuggler
+
+ROS plugins are available in a separate repository: https://github.com/PlotJuggler/plotjuggler-ros-plugins
+
+To build (ex maybe on the RPi):
+https://github.com/facontidavide/PlotJuggler/blob/main/COMPILE.md
+
+### using:
+
+https://facontidavide.github.io/PlotJuggler/visualization_howto/index.html
+https://plotjuggler.io/
+
+Load a mcap time series from top left dialog, then drag and drop from the time series name.
+Can export to csv.
+# rosbags
+
+db3 or mcap type of message.
+
+What is MCAP?
+
+https://mcap.dev/
+
+MCAP (short for “message capture”, pronounced “em-cap”) is an open-source container file format optimized for storing timestamped data from multiple sensors (lidar, radar, camera, GPS/IMU, …) and data streams (calibration data, sensor metadata, object detections, …).
+
+Record as mcap, all the topics:
+
+    ros2 bag record -s mcap -all
+
+    $ ros2 bag record -s mcap /topic1 /topic2 ...
+
+    $ ros2 bag play -s mcap path/to/your_recording.mcap
+
+    $ ros2 bag info -s mcap path/to/your_recording.mcap
+
+https://esthersweon.medium.com/announcing-the-mcap-storage-plugin-for-ros-2-5bb03c5630f5
+
+https://docs.ros.org/en/iron/p/rosbag2_storage_mcap/
+
+
 # How-To
+
+## record rosbags
+
+    ros2 bag record /topic_name
+
+In humble, to record as mcap:
+
+    sudo apt install ros-humble-rosbag2-storage-mcap
+
+and then:
+
+    ros2 bag record -s mcpa /topic_name
+
 
 ## install colcon
 
@@ -585,6 +693,22 @@ References:
     ros2 topic list
 
 # Error messages and solutions
+
+## when updating: error key
+
+Error after running sudo apt update:
+
+    Err:7 http://packages.ros.org/ros/ubuntu bionic InRelease
+      The following signatures were invalid: EXPKEYSIG F42ED6FBAB17C654 Open Robotics <info@osrfoundation.org>
+    Reading package lists... Done
+    W: GPG error: http://packages.ros.org/ros/ubuntu ... 
+
+Fix:
+
+    sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+
+https://askubuntu.com/questions/1341378/invalid-signature-error-for-ros-repository-while-trying-to-do-sudo-apt-get-updat
+
 
 ## time stamp mismatch
 
