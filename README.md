@@ -34,6 +34,7 @@
         * [usage](#usage)
 * [How-To](#how-to)
 * [Error messages and solutions](#error-messages-and-solutions)
+    * [error struct rosbag2_storage::SerializedBagMessage has no member named ‘timestamp’](#error-struct-rosbag2_storage::serializedbagmessage-has-no-member-named-‘timestamp’)
     * [when updating: error key](#when-updating:-error-key)
     * [time stamp mismatch](#time-stamp-mismatch)
 
@@ -693,6 +694,15 @@ References:
     ros2 topic list
 
 # Error messages and solutions
+
+## error struct rosbag2_storage::SerializedBagMessage has no member named ‘timestamp’
+
+(from humble to jazzy)
+
+The rosbag2_storage::SerializedBagMessage struct in ROS 2 does not have a member named timestamp. Instead, it has recv_timestamp and published_time members, both of type uint64_t, representing the nanosecond timestampts.
+
+Error in allan_variance_ros2 (and my work in avar_imu_ros2).
+
 
 ## when updating: error key
 

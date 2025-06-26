@@ -1,0 +1,672 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ludofw/mygitrepos/ROS2know/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AnimatedUAVPublisher	sandbox/transforms_map_body_ptcl_pt_animate.py	/^class AnimatedUAVPublisher(Node):$/;"	c
+AnimatedUAVPublisher	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^class AnimatedUAVPublisher(Node):$/;"	c
+Arrow	examples/python/rviz_marker_tuto.py	/^class Arrow(ArrowNode):$/;"	c
+Arrow	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class Arrow(ArrowNode):$/;"	c
+Arrow	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class Arrow(ArrowNode):$/;"	c
+Arrow	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class Arrow(ArrowNode):$/;"	c
+Arrow	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class Arrow(ArrowNode):$/;"	c
+ArrowNode	examples/python/rviz_marker_tuto.py	/^class ArrowNode:$/;"	c
+ArrowNode	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class ArrowNode:$/;"	c
+ArrowNode	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class ArrowNode:$/;"	c
+ArrowNode	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class ArrowNode:$/;"	c
+ArrowNode	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class ArrowNode:$/;"	c
+BNO055 (bosch)	README_imu.md	/^### BNO055 (bosch)$/;"	S	section:using IMUs with ROS2""packages for specific IMUs
+Balloon	examples/python/rviz_marker_tuto.py	/^class Balloon(Node):$/;"	c
+Balloon	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class Balloon(Node):$/;"	c
+Balloon	examples/python/show_sphere.py	/^class Balloon(Node):$/;"	c
+Balloon	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class Balloon(Node):$/;"	c
+Balloon	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class Balloon(Node):$/;"	c
+Balloon	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class Balloon(Node):$/;"	c
+BalloonList	examples/python/rviz_marker_tuto.py	/^class BalloonList(Node):$/;"	c
+BalloonList	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class BalloonList(Node):$/;"	c
+BalloonList	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class BalloonList(Node):$/;"	c
+BalloonList	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class BalloonList(Node):$/;"	c
+BalloonList	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class BalloonList(Node):$/;"	c
+COLCON_CURRENT_PREFIX	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.ps1	/^$env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName$/;"	v
+COLCON_CURRENT_PREFIX	rviz/sandbox/rviz_marker/install/setup.ps1	/^$env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)$/;"	v
+COLCON_CURRENT_PREFIX	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.ps1	/^$env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName$/;"	v
+COLCON_CURRENT_PREFIX	tutorials/simple_publisher_subscriber/install/setup.ps1	/^$env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)$/;"	v
+Capabilities	examples/README_examples.md	/^### Capabilities$/;"	S	section:examples""visualization topics
+DSV_TYPE_APPEND_NON_DUPLICATE	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_APPEND_NON_DUPLICATE = 'append-non-duplicate'$/;"	v
+DSV_TYPE_APPEND_NON_DUPLICATE	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_APPEND_NON_DUPLICATE = 'append-non-duplicate'$/;"	v
+DSV_TYPE_APPEND_NON_DUPLICATE	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_APPEND_NON_DUPLICATE = 'append-non-duplicate'$/;"	v
+DSV_TYPE_APPEND_NON_DUPLICATE	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_APPEND_NON_DUPLICATE = 'append-non-duplicate'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE = 'prepend-non-duplicate'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE = 'prepend-non-duplicate'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE = 'prepend-non-duplicate'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE = 'prepend-non-duplicate'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS = 'prepend-non-duplicate-if-exists'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS = 'prepend-non-duplicate-if-exists'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS = 'prepend-non-duplicate-if-exists'$/;"	v
+DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_PREPEND_NON_DUPLICATE_IF_EXISTS = 'prepend-non-duplicate-if-exists'$/;"	v
+DSV_TYPE_SET	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_SET = 'set'$/;"	v
+DSV_TYPE_SET	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_SET = 'set'$/;"	v
+DSV_TYPE_SET	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_SET = 'set'$/;"	v
+DSV_TYPE_SET	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_SET = 'set'$/;"	v
+DSV_TYPE_SET_IF_UNSET	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_SET_IF_UNSET = 'set-if-unset'$/;"	v
+DSV_TYPE_SET_IF_UNSET	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_SET_IF_UNSET = 'set-if-unset'$/;"	v
+DSV_TYPE_SET_IF_UNSET	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_SET_IF_UNSET = 'set-if-unset'$/;"	v
+DSV_TYPE_SET_IF_UNSET	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_SET_IF_UNSET = 'set-if-unset'$/;"	v
+DSV_TYPE_SOURCE	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^DSV_TYPE_SOURCE = 'source'$/;"	v
+DSV_TYPE_SOURCE	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^DSV_TYPE_SOURCE = 'source'$/;"	v
+DSV_TYPE_SOURCE	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^DSV_TYPE_SOURCE = 'source'$/;"	v
+DSV_TYPE_SOURCE	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^DSV_TYPE_SOURCE = 'source'$/;"	v
+DualImageSubscriber	depthai_luxonis/mono_dispar_sub.py	/^class DualImageSubscriber(Node):$/;"	c
+DualImageSubscriber_cvbridge	depthai_luxonis/mono_dispar_sub.py	/^class DualImageSubscriber_cvbridge(Node):$/;"	c
+Error messages and solutions	README.md	/^# Error messages and solutions$/;"	c
+Errors, glitches	examples/README_examples.md	/^## Errors, glitches$/;"	s	chapter:examples
+FORMAT_STR_COMMENT_LINE	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_COMMENT_LINE = '# {comment}'$/;"	v
+FORMAT_STR_COMMENT_LINE	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_COMMENT_LINE = '# {comment}'$/;"	v
+FORMAT_STR_COMMENT_LINE	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_COMMENT_LINE = '# {comment}'$/;"	v
+FORMAT_STR_COMMENT_LINE	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_COMMENT_LINE = '# {comment}'$/;"	v
+FORMAT_STR_INVOKE_SCRIPT	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_INVOKE_SCRIPT = '_colcon_prefix_powershell_source_script "{script_path}"'  # noqa: E5/;"	v
+FORMAT_STR_INVOKE_SCRIPT	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{s/;"	v
+FORMAT_STR_INVOKE_SCRIPT	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_INVOKE_SCRIPT = '_colcon_prefix_powershell_source_script "{script_path}"'  # noqa: E5/;"	v
+FORMAT_STR_INVOKE_SCRIPT	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX="{prefix}" _colcon_prefix_sh_source_script "{s/;"	v
+FORMAT_STR_REMOVE_LEADING_SEPARATOR	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_REMOVE_LEADING_SEPARATOR = ''  # noqa: E501$/;"	v
+FORMAT_STR_REMOVE_LEADING_SEPARATOR	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then expor/;"	v
+FORMAT_STR_REMOVE_LEADING_SEPARATOR	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_REMOVE_LEADING_SEPARATOR = ''  # noqa: E501$/;"	v
+FORMAT_STR_REMOVE_LEADING_SEPARATOR	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_REMOVE_LEADING_SEPARATOR = 'if [ "$(echo -n ${name} | head -c 1)" = ":" ]; then expor/;"	v
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_REMOVE_TRAILING_SEPARATOR = ''  # noqa: E501$/;"	v
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then expo/;"	v
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_REMOVE_TRAILING_SEPARATOR = ''  # noqa: E501$/;"	v
+FORMAT_STR_REMOVE_TRAILING_SEPARATOR	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ "$(echo -n ${name} | tail -c 1)" = ":" ]; then expo/;"	v
+FORMAT_STR_SET_ENV_VAR	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_SET_ENV_VAR = 'Set-Item -Path "Env:{name}" -Value "{value}"'$/;"	v
+FORMAT_STR_SET_ENV_VAR	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_SET_ENV_VAR = 'export {name}="{value}"'$/;"	v
+FORMAT_STR_SET_ENV_VAR	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_SET_ENV_VAR = 'Set-Item -Path "Env:{name}" -Value "{value}"'$/;"	v
+FORMAT_STR_SET_ENV_VAR	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_SET_ENV_VAR = 'export {name}="{value}"'$/;"	v
+FORMAT_STR_USE_ENV_VAR	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^FORMAT_STR_USE_ENV_VAR = '$env:{name}'$/;"	v
+FORMAT_STR_USE_ENV_VAR	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^FORMAT_STR_USE_ENV_VAR = '${name}'$/;"	v
+FORMAT_STR_USE_ENV_VAR	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^FORMAT_STR_USE_ENV_VAR = '$env:{name}'$/;"	v
+FORMAT_STR_USE_ENV_VAR	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^FORMAT_STR_USE_ENV_VAR = '${name}'$/;"	v
+Gazebo installation	README.md	/^## Gazebo installation$/;"	s	chapter:How-To
+How-To	README.md	/^# How-To$/;"	c
+Installation	README.md	/^# Installation$/;"	c
+Installing ROS on the raspberry pi	README_RPi.md	/^# Installing ROS on the raspberry pi$/;"	c
+Introduction	README.md	/^# Introduction$/;"	c
+Issues, errors	README.md	/^### Issues, errors$/;"	S	section:git repos and tutorials""ROS2 point cloud demo
+LEFT_SOCKET	depthai_luxonis/mono_dispar_pub.py	/^LEFT_SOCKET = dai.CameraBoardSocket.CAM_B # that's left, LEFT is deprecated$/;"	v
+LineList	examples/python/rviz_marker_tuto.py	/^class LineList(Node):$/;"	c
+LineList	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class LineList(Node):$/;"	c
+LineList	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class LineList(Node):$/;"	c
+LineList	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class LineList(Node):$/;"	c
+LineList	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class LineList(Node):$/;"	c
+LineList2	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class LineList2(Node):$/;"	c
+LineList2	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class LineList2(Node):$/;"	c
+LineList2	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class LineList2(Node):$/;"	c
+LinePolygonExample	examples/python/polygon_simpleline_msg.py	/^class LinePolygonExample(Node):$/;"	c
+LineStrip	examples/python/rviz_marker_tuto.py	/^class LineStrip(Node):$/;"	c
+LineStrip	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class LineStrip(Node):$/;"	c
+LineStrip	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class LineStrip(Node):$/;"	c
+LineStrip	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class LineStrip(Node):$/;"	c
+LineStrip	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class LineStrip(Node):$/;"	c
+MARKERS_MAX	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^MARKERS_MAX = 100$/;"	v
+MARKERS_MAX	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^MARKERS_MAX = 100$/;"	v
+MARKERS_MAX	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^MARKERS_MAX = 100$/;"	v
+MARKERS_MAX	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^MARKERS_MAX = 100$/;"	v
+MapPointPublisher	sandbox/map_sub_show.py	/^class MapPointPublisher(Node):$/;"	c
+MinimalImagePublisher	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  MinimalImagePublisher() : Node("opencv_image_publisher"), count_(0) {$/;"	f	class:MinimalImagePublisher	file:
+MinimalImagePublisher	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^class MinimalImagePublisher : public rclcpp::Node {$/;"	c	file:
+MinimalPublisher	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py	/^class MinimalPublisher(Node):$/;"	c
+MinimalPublisher	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py	/^class MinimalPublisher(Node):$/;"	c
+MinimalPublisher	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/publisher_member_function.py	/^class MinimalPublisher(Node):$/;"	c
+MinimalSubscriber	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py	/^class MinimalSubscriber(Node):$/;"	c
+MinimalSubscriber	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py	/^class MinimalSubscriber(Node):$/;"	c
+MinimalSubscriber	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/subscriber_member_function.py	/^class MinimalSubscriber(Node):$/;"	c
+MyPointStamped	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^class MyPointStamped(Node):$/;"	c
+MyPointStamped	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^class MyPointStamped(Node):$/;"	c
+MyPointStamped	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^class MyPointStamped(Node):$/;"	c
+On a RPi running RaspberryPi OS	README_RPi.md	/^## On a RPi running RaspberryPi OS$/;"	s	chapter:Installing ROS on the raspberry pi
+PILImage	utils/get_image_from_rosbag.py	/^from PIL import Image as PILImage  # Using PIL for JPEG encoding$/;"	x	nameref:unknown:Image
+PILImage	utils/get_image_from_rosbag_1.py	/^from PIL import Image as PILImage  # Using PIL for JPEG encoding$/;"	x	nameref:unknown:Image
+PILImage	utils/get_image_from_rosbag_2.py	/^from PIL import Image as PILImage$/;"	x	nameref:unknown:Image
+PX4	README_UAV.md	/^# PX4 $/;"	c
+Packages installs	README_RPi.md	/^# Packages installs$/;"	c
+PlotJuggler	README.md	/^## PlotJuggler$/;"	s	chapter:Plugins
+Plugins	README.md	/^# Plugins$/;"	c
+PointCloudAndMapPointPublisher	sandbox/transforms_map_body_ptcl_point.py	/^class PointCloudAndMapPointPublisher(Node):$/;"	c
+PointCloudPublisher	PointCloud/pointCloudPublisher.py	/^class PointCloudPublisher(Node):$/;"	c
+PolarHistogramPointCloudPublisher	rviz/show_polar_histogram/polar_hist_pub_as_ptcl.py	/^class PolarHistogramPointCloudPublisher(Node):$/;"	c
+PolarHistogramPublisher	rviz/show_polar_histogram/polar_hist_pub.py	/^class PolarHistogramPublisher(Node):$/;"	c
+PolarHistogramVisualization	rviz/show_polar_histogram/polar_hist_pub_as_ptcl_lines.py	/^class PolarHistogramVisualization(Node):$/;"	c
+PolygonExample	examples/python/polygon_msg.py	/^class PolygonExample(Node):$/;"	c
+PolygonMarkerExample	examples/python/polygon_msg_rviz2.py	/^class PolygonMarkerExample(Node):$/;"	c
+ROS Topics	README.md	/^## ROS Topics$/;"	s	chapter:Tutorials
+ROS2 and opencv	README.md	/^# ROS2 and opencv$/;"	c
+ROS2 packages	README.md	/^## ROS2 packages$/;"	s	chapter:Tutorials
+ROS2 point cloud demo	README.md	/^## ROS2 point cloud demo$/;"	s	chapter:git repos and tutorials
+ROS2know	README.md	/^# ROS2know$/;"	c
+RVIZ2	README.md	/^## RVIZ2$/;"	s	chapter:Installation
+Tutorials	README.md	/^# Tutorials$/;"	c
+UAVPublisher	sandbox/test.py	/^class UAVPublisher(Node):$/;"	c
+UAVPublisher	sandbox/uav_trajectory_obstacle_pub.py	/^class UAVPublisher(Node):$/;"	c
+UAVPublisher	sandbox/uav_trajectory_pub.py	/^class UAVPublisher(Node):$/;"	c
+Using ROS with python	README.md	/^# Using ROS with python$/;"	c
+__init__	PointCloud/pointCloudPublisher.py	/^    def __init__(self):$/;"	m	class:PointCloudPublisher
+__init__	depthai_luxonis/mono_dispar_sub.py	/^    def __init__(self):$/;"	m	class:DualImageSubscriber
+__init__	depthai_luxonis/mono_dispar_sub.py	/^    def __init__(self):$/;"	m	class:DualImageSubscriber_cvbridge
+__init__	examples/python/img_cvbridge.py	/^    def __init__(self):$/;"	m	class:program
+__init__	examples/python/polygon_msg.py	/^    def __init__(self):$/;"	m	class:PolygonExample
+__init__	examples/python/polygon_msg_rviz2.py	/^    def __init__(self):$/;"	m	class:PolygonMarkerExample
+__init__	examples/python/polygon_simpleline_msg.py	/^    def __init__(self):$/;"	m	class:LinePolygonExample
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:BalloonList
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineList
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineStrip
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:Arrow
+__init__	examples/python/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:ArrowNode
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:BalloonList
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineStrip
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,namespc = 'ns1'):$/;"	m	class:LineList
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:Arrow
+__init__	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:ArrowNode
+__init__	examples/python/show_sphere.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:BalloonList
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineList2
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineStrip
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:MyPointStamped
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,namespc = 'ns1'):$/;"	m	class:LineList
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:Arrow
+__init__	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:ArrowNode
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:BalloonList
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineList2
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineStrip
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:MyPointStamped
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,namespc = 'ns1'):$/;"	m	class:LineList
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:Arrow
+__init__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:ArrowNode
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:Balloon
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:BalloonList
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineList2
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:LineStrip
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self):$/;"	m	class:MyPointStamped
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,namespc = 'ns1'):$/;"	m	class:LineList
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:Arrow
+__init__	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def __init__(self,nodename,topicname):$/;"	m	class:ArrowNode
+__init__	rviz/show_polar_histogram/polar_hist_pub.py	/^    def __init__(self):$/;"	m	class:PolarHistogramPublisher
+__init__	rviz/show_polar_histogram/polar_hist_pub_as_ptcl.py	/^    def __init__(self):$/;"	m	class:PolarHistogramPointCloudPublisher
+__init__	rviz/show_polar_histogram/polar_hist_pub_as_ptcl_lines.py	/^    def __init__(self):$/;"	m	class:PolarHistogramVisualization
+__init__	sandbox/map_sub_show.py	/^    def __init__(self):$/;"	m	class:MapPointPublisher
+__init__	sandbox/test.py	/^    def __init__(self):$/;"	m	class:UAVPublisher
+__init__	sandbox/transforms_map_body_ptcl_point.py	/^    def __init__(self):$/;"	m	class:PointCloudAndMapPointPublisher
+__init__	sandbox/transforms_map_body_ptcl_pt_animate.py	/^    def __init__(self):$/;"	m	class:AnimatedUAVPublisher
+__init__	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def __init__(self):$/;"	m	class:AnimatedUAVPublisher
+__init__	sandbox/uav_trajectory_obstacle_pub.py	/^    def __init__(self):$/;"	m	class:UAVPublisher
+__init__	sandbox/uav_trajectory_pub.py	/^    def __init__(self):$/;"	m	class:UAVPublisher
+__init__	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalPublisher
+__init__	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalSubscriber
+__init__	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalPublisher
+__init__	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalSubscriber
+__init__	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/publisher_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalPublisher
+__init__	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/subscriber_member_function.py	/^    def __init__(self):$/;"	m	class:MinimalSubscriber
+__requires__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker/rvizmarker	/^__requires__ = 'rviz-marker==0.0.0'$/;"	v
+__requires__	rviz/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker/rviztest	/^__requires__ = 'rviz-marker==0.0.0'$/;"	v
+__requires__	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/py_pubsub/listener	/^__requires__ = 'py-pubsub==0.0.0'$/;"	v
+__requires__	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/py_pubsub/talker	/^__requires__ = 'py-pubsub==0.0.0'$/;"	v
+_append_unique_value	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _append_unique_value(name, value):$/;"	f
+_append_unique_value	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _append_unique_value(name, value):$/;"	f
+_append_unique_value	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _append_unique_value(name, value):$/;"	f
+_append_unique_value	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _append_unique_value(name, value):$/;"	f
+_colcon_ordered_commands	rviz/sandbox/rviz_marker/install/local_setup.ps1	/^$_colcon_ordered_commands = & "$_colcon_python_executable" "$(Split-Path $PSCommandPath -Parent)/;"	v
+_colcon_ordered_commands	tutorials/simple_publisher_subscriber/install/local_setup.ps1	/^$_colcon_ordered_commands = & "$_colcon_python_executable" "$(Split-Path $PSCommandPath -Parent)/;"	v
+_colcon_package_bash_source_script	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.bash	/^_colcon_package_bash_source_script() {$/;"	f
+_colcon_package_bash_source_script	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.bash	/^_colcon_package_bash_source_script() {$/;"	f
+_colcon_package_sh_source_script	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.sh	/^_colcon_package_sh_source_script() {$/;"	f
+_colcon_package_sh_source_script	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.sh	/^_colcon_package_sh_source_script() {$/;"	f
+_colcon_package_zsh_source_script	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.zsh	/^_colcon_package_zsh_source_script() {$/;"	f
+_colcon_package_zsh_source_script	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.zsh	/^_colcon_package_zsh_source_script() {$/;"	f
+_colcon_prefix_bash_prepend_unique_value	rviz/sandbox/rviz_marker/install/local_setup.bash	/^_colcon_prefix_bash_prepend_unique_value() {$/;"	f
+_colcon_prefix_bash_prepend_unique_value	tutorials/simple_publisher_subscriber/install/local_setup.bash	/^_colcon_prefix_bash_prepend_unique_value() {$/;"	f
+_colcon_prefix_chain_bash_source_script	rviz/sandbox/rviz_marker/install/setup.bash	/^_colcon_prefix_chain_bash_source_script() {$/;"	f
+_colcon_prefix_chain_bash_source_script	tutorials/simple_publisher_subscriber/install/setup.bash	/^_colcon_prefix_chain_bash_source_script() {$/;"	f
+_colcon_prefix_chain_powershell_source_script	rviz/sandbox/rviz_marker/install/setup.ps1	/^function _colcon_prefix_chain_powershell_source_script {$/;"	f
+_colcon_prefix_chain_powershell_source_script	tutorials/simple_publisher_subscriber/install/setup.ps1	/^function _colcon_prefix_chain_powershell_source_script {$/;"	f
+_colcon_prefix_chain_sh_source_script	rviz/sandbox/rviz_marker/install/setup.sh	/^_colcon_prefix_chain_sh_source_script() {$/;"	f
+_colcon_prefix_chain_sh_source_script	tutorials/simple_publisher_subscriber/install/setup.sh	/^_colcon_prefix_chain_sh_source_script() {$/;"	f
+_colcon_prefix_chain_zsh_source_script	rviz/sandbox/rviz_marker/install/setup.zsh	/^_colcon_prefix_chain_zsh_source_script() {$/;"	f
+_colcon_prefix_chain_zsh_source_script	tutorials/simple_publisher_subscriber/install/setup.zsh	/^_colcon_prefix_chain_zsh_source_script() {$/;"	f
+_colcon_prefix_powershell_source_script	rviz/sandbox/rviz_marker/install/local_setup.ps1	/^function _colcon_prefix_powershell_source_script {$/;"	f
+_colcon_prefix_powershell_source_script	tutorials/simple_publisher_subscriber/install/local_setup.ps1	/^function _colcon_prefix_powershell_source_script {$/;"	f
+_colcon_prefix_sh_prepend_unique_value	rviz/sandbox/rviz_marker/install/local_setup.sh	/^_colcon_prefix_sh_prepend_unique_value() {$/;"	f
+_colcon_prefix_sh_prepend_unique_value	tutorials/simple_publisher_subscriber/install/local_setup.sh	/^_colcon_prefix_sh_prepend_unique_value() {$/;"	f
+_colcon_prefix_sh_source_script	rviz/sandbox/rviz_marker/install/local_setup.bash	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_sh_source_script	rviz/sandbox/rviz_marker/install/local_setup.sh	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_sh_source_script	rviz/sandbox/rviz_marker/install/local_setup.zsh	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_sh_source_script	tutorials/simple_publisher_subscriber/install/local_setup.bash	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_sh_source_script	tutorials/simple_publisher_subscriber/install/local_setup.sh	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_sh_source_script	tutorials/simple_publisher_subscriber/install/local_setup.zsh	/^_colcon_prefix_sh_source_script() {$/;"	f
+_colcon_prefix_zsh_convert_to_array	rviz/sandbox/rviz_marker/install/local_setup.zsh	/^_colcon_prefix_zsh_convert_to_array() {$/;"	f
+_colcon_prefix_zsh_convert_to_array	tutorials/simple_publisher_subscriber/install/local_setup.zsh	/^_colcon_prefix_zsh_convert_to_array() {$/;"	f
+_colcon_prefix_zsh_prepend_unique_value	rviz/sandbox/rviz_marker/install/local_setup.zsh	/^_colcon_prefix_zsh_prepend_unique_value() {$/;"	f
+_colcon_prefix_zsh_prepend_unique_value	tutorials/simple_publisher_subscriber/install/local_setup.zsh	/^_colcon_prefix_zsh_prepend_unique_value() {$/;"	f
+_colcon_prepend_unique_value	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.sh	/^_colcon_prepend_unique_value() {$/;"	f
+_colcon_prepend_unique_value	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.sh	/^_colcon_prepend_unique_value() {$/;"	f
+_colcon_python_executable	rviz/sandbox/rviz_marker/install/local_setup.ps1	/^    $_colcon_python_executable="python3"$/;"	v
+_colcon_python_executable	rviz/sandbox/rviz_marker/install/local_setup.ps1	/^  $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"$/;"	v
+_colcon_python_executable	rviz/sandbox/rviz_marker/install/local_setup.ps1	/^  $_colcon_python_executable="\/usr\/bin\/python3"$/;"	v
+_colcon_python_executable	tutorials/simple_publisher_subscriber/install/local_setup.ps1	/^    $_colcon_python_executable="python3"$/;"	v
+_colcon_python_executable	tutorials/simple_publisher_subscriber/install/local_setup.ps1	/^  $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"$/;"	v
+_colcon_python_executable	tutorials/simple_publisher_subscriber/install/local_setup.ps1	/^  $_colcon_python_executable="\/usr\/bin\/python3"$/;"	v
+_include_comments	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _include_comments():$/;"	f
+_include_comments	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _include_comments():$/;"	f
+_include_comments	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _include_comments():$/;"	f
+_include_comments	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _include_comments():$/;"	f
+_prepend_unique_value	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _prepend_unique_value(name, value):$/;"	f
+_prepend_unique_value	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _prepend_unique_value(name, value):$/;"	f
+_prepend_unique_value	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _prepend_unique_value(name, value):$/;"	f
+_prepend_unique_value	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _prepend_unique_value(name, value):$/;"	f
+_remove_ending_separators	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _remove_ending_separators():$/;"	f
+_remove_ending_separators	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _remove_ending_separators():$/;"	f
+_remove_ending_separators	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _remove_ending_separators():$/;"	f
+_remove_ending_separators	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _remove_ending_separators():$/;"	f
+_set	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _set(name, value):$/;"	f
+_set	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _set(name, value):$/;"	f
+_set	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _set(name, value):$/;"	f
+_set	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _set(name, value):$/;"	f
+_set_if_unset	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def _set_if_unset(name, value):$/;"	f
+_set_if_unset	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def _set_if_unset(name, value):$/;"	f
+_set_if_unset	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def _set_if_unset(name, value):$/;"	f
+_set_if_unset	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def _set_if_unset(name, value):$/;"	f
+add_line	examples/python/rviz_marker_tuto.py	/^    def add_line(self,linept0,linept1):$/;"	m	class:LineList
+add_line	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_line(self,linept0,linept1):$/;"	m	class:LineList
+add_line	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_line(self,linept0,linept1):$/;"	m	class:LineList
+add_line	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_line(self,linept0,linept1):$/;"	m	class:LineList
+add_line	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_line(self,linept0,linept1):$/;"	m	class:LineList
+add_linestrip	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_linestrip(self,namespc):$/;"	m	class:LineList
+add_linestrip	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_linestrip(self,namespc):$/;"	m	class:LineList
+add_linestrip	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_linestrip(self,namespc):$/;"	m	class:LineList
+add_linestrip	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_linestrip(self,namespc):$/;"	m	class:LineList
+add_ns	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_ns(self,namespc):$/;"	m	class:LineList
+add_ns	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_ns(self,namespc):$/;"	m	class:LineList
+add_ns	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_ns(self,namespc):$/;"	m	class:LineList
+add_ns	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_ns(self,namespc):$/;"	m	class:LineList
+add_package_runtime_dependencies	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def add_package_runtime_dependencies(path, packages):$/;"	f
+add_package_runtime_dependencies	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def add_package_runtime_dependencies(path, packages):$/;"	f
+add_package_runtime_dependencies	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def add_package_runtime_dependencies(path, packages):$/;"	f
+add_package_runtime_dependencies	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def add_package_runtime_dependencies(path, packages):$/;"	f
+add_point	examples/python/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:BalloonList
+add_point	examples/python/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineList
+add_point	examples/python/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineStrip
+add_point	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:BalloonList
+add_point	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineList
+add_point	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineStrip
+add_point	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:BalloonList
+add_point	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineList
+add_point	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineStrip
+add_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:BalloonList
+add_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineList
+add_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineStrip
+add_point	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:BalloonList
+add_point	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineList
+add_point	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def add_point(self,pt2add):$/;"	m	class:LineStrip
+ament_cmake_copyright_FOUND	examples/cpp/cv_bridge_helloworld/CMakeLists.txt	/^  set(ament_cmake_copyright_FOUND TRUE)$/;"	v
+ament_cmake_cpplint_FOUND	examples/cpp/cv_bridge_helloworld/CMakeLists.txt	/^  set(ament_cmake_cpplint_FOUND TRUE)$/;"	v
+animation_step	sandbox/test.py	/^    def animation_step(self):$/;"	m	class:UAVPublisher
+animation_step	sandbox/transforms_map_body_ptcl_pt_animate.py	/^    def animation_step(self):$/;"	m	class:AnimatedUAVPublisher
+animation_step	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def animation_step(self):$/;"	m	class:AnimatedUAVPublisher
+animation_step	sandbox/uav_trajectory_obstacle_pub.py	/^    def animation_step(self):$/;"	m	class:UAVPublisher
+animation_step	sandbox/uav_trajectory_pub.py	/^    def animation_step(self):$/;"	m	class:UAVPublisher
+bag_file	utils/get_image_from_rosbag.py	/^    bag_file = 'your_bag_file.db3'  # Replace with the actual path to your bag file$/;"	v
+bag_folder	utils/get_image_from_rosbag_1.py	/^    bag_folder = 'your_bag_folder'  # Replace with the actual path to your bag folder$/;"	v
+bag_folder	utils/get_image_from_rosbag_2.py	/^    bag_folder = 'your_bag_folder'  # Replace with the actual path to your bag folder$/;"	v
+building a simple robot controller	README.md	/^## building a simple robot controller$/;"	s	chapter:git repos and tutorials
+camera_topic	utils/get_image_from_rosbag.py	/^    camera_topic = '\/camera\/image_raw'  # Replace with the actual image topic name$/;"	v
+camera_topic	utils/get_image_from_rosbag_1.py	/^    camera_topic = '\/camera\/image_raw'  # Replace with the actual image topic name$/;"	v
+camera_topic	utils/get_image_from_rosbag_2.py	/^    camera_topic = '\/camera\/image_raw'  # Replace with the actual image topic name$/;"	v
+cloud_callback	sandbox/map_sub_show.py	/^    def cloud_callback(self, msg):$/;"	m	class:MapPointPublisher
+colcon_append_unique_value	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.ps1	/^function colcon_append_unique_value {$/;"	f
+colcon_append_unique_value	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.ps1	/^function colcon_append_unique_value {$/;"	f
+colcon_package_source_powershell_script	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.ps1	/^function colcon_package_source_powershell_script {$/;"	f
+colcon_package_source_powershell_script	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.ps1	/^function colcon_package_source_powershell_script {$/;"	f
+colcon_prepend_unique_value	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.ps1	/^function colcon_prepend_unique_value {$/;"	f
+colcon_prepend_unique_value	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.ps1	/^function colcon_prepend_unique_value {$/;"	f
+colcon_zsh_convert_to_array	rviz/sandbox/rviz_marker/install/rviz_marker/share/rviz_marker/package.zsh	/^colcon_zsh_convert_to_array() {$/;"	f
+colcon_zsh_convert_to_array	tutorials/simple_publisher_subscriber/install/py_pubsub/share/py_pubsub/package.zsh	/^colcon_zsh_convert_to_array() {$/;"	f
+copying data from an existing package	README_packages_nodes.md	/^## copying data from an existing package$/;"	s	chapter:create a package
+count	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^count = 0$/;"	v
+count	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^count = 0$/;"	v
+count	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^count = 0$/;"	v
+count	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^count = 0$/;"	v
+count_	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  size_t count_;$/;"	m	class:MinimalImagePublisher	typeref:typename:size_t	file:
+cpp	examples/README_examples.md	/^### cpp$/;"	S	section:examples""using cv_bridge
+create a package	README_packages_nodes.md	/^# create a package$/;"	c
+create_line_polygon	examples/python/polygon_msg.py	/^    def create_line_polygon(self):$/;"	m	class:PolygonExample
+create_square_marker	examples/python/polygon_msg_rviz2.py	/^    def create_square_marker(self):$/;"	m	class:PolygonMarkerExample
+create_square_polygon	examples/python/polygon_msg.py	/^    def create_square_polygon(self):$/;"	m	class:PolygonExample
+create_triangle_marker	examples/python/polygon_msg_rviz2.py	/^    def create_triangle_marker(self):$/;"	m	class:PolygonMarkerExample
+create_triangle_polygon	examples/python/polygon_msg.py	/^    def create_triangle_polygon(self):$/;"	m	class:PolygonExample
+crop_x_max	depthai_luxonis/mono_dispar_pub.py	/^crop_x_max = 0.8$/;"	v
+crop_x_min	depthai_luxonis/mono_dispar_pub.py	/^crop_x_min = 0.2$/;"	v
+crop_y_max	depthai_luxonis/mono_dispar_pub.py	/^crop_y_max = 0.8$/;"	v
+crop_y_min	depthai_luxonis/mono_dispar_pub.py	/^crop_y_min = 0.2$/;"	v
+custom .deb package	README_RPi.md	/^### custom .deb package$/;"	S	section:Installing ROS on the raspberry pi""On a RPi running RaspberryPi OS
+cv	depthai_luxonis/mono_dispar_sub.py	/^import cv2 as cv$/;"	I	nameref:module:cv2
+cv-bridge	README_RPi.md	/^## cv-bridge$/;"	s	chapter:Packages installs
+cv_bridge	README.md	/^## cv_bridge$/;"	s	chapter:ROS2 and opencv
+cv_bridge_helloworld_cpp	examples/cpp/cv_bridge_helloworld/CMakeLists.txt	/^project(cv_bridge_helloworld_cpp)$/;"	p
+dai	depthai_luxonis/mono_dispar_pub.py	/^import depthai as dai$/;"	I	nameref:module:depthai
+define_line_polygon	examples/python/polygon_simpleline_msg.py	/^    def define_line_polygon(self, points):$/;"	m	class:LinePolygonExample
+disparity_callback	depthai_luxonis/mono_dispar_sub.py	/^    def disparity_callback(self, msg):$/;"	m	class:DualImageSubscriber
+disparity_callback	depthai_luxonis/mono_dispar_sub.py	/^    def disparity_callback(self, msg):$/;"	m	class:DualImageSubscriber_cvbridge
+disparity_pub	depthai_luxonis/mono_dispar_pub.py	/^disparity_pub = node.create_publisher(Image, "\/oak\/disparity", 1)$/;"	v
+dtype	PointCloud/pointCloudPublisher.py	/^    dtype = PointField.FLOAT32$/;"	v	class:PointCloudPublisher
+env_state	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^env_state = {}$/;"	v
+env_state	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^env_state = {}$/;"	v
+env_state	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^env_state = {}$/;"	v
+env_state	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^env_state = {}$/;"	v
+examples	examples/README_examples.md	/^# examples$/;"	c
+examples	examples/README_examples.md	/^### examples$/;"	S	section:examples""visualization topics
+exist_cvbridge	depthai_luxonis/mono_dispar_sub.py	/^    exist_cvbridge = True$/;"	v
+exist_cvbridge	depthai_luxonis/mono_dispar_sub.py	/^exist_cvbridge = False$/;"	v
+explored packages	README_packages_nodes.md	/^# explored packages$/;"	c
+extract_interactive_frames	utils/get_image_from_rosbag_2.py	/^def extract_interactive_frames(bag_path, image_topic):$/;"	f
+fields	PointCloud/pointCloudPublisher.py	/^    fields = [PointField(name='x', offset=0, datatype=dtype, count=1),$/;"	v	class:PointCloudPublisher
+frameDisparity	depthai_luxonis/mono_dispar_pub.py	/^        frameDisparity = inDisparity.getCvFrame()$/;"	v
+frameLeft	depthai_luxonis/mono_dispar_pub.py	/^        frameLeft = inLeft.getCvFrame()$/;"	v
+general info	README_imu.md	/^## general info$/;"	s	chapter:using IMUs with ROS2
+generate_cylinder_obstacle_pts	sandbox/uav_trajectory_obstacle_pub.py	/^    def generate_cylinder_obstacle_pts(self):$/;"	m	class:UAVPublisher
+generate_obstacle_points	sandbox/test.py	/^    def generate_obstacle_points(self):$/;"	m	class:UAVPublisher
+generate_obstacle_points	sandbox/uav_trajectory_obstacle_pub.py	/^    def generate_obstacle_points(self):$/;"	m	class:UAVPublisher
+generate_point_cloud	sandbox/test.py	/^    def generate_point_cloud(self):$/;"	m	class:UAVPublisher
+generate_point_cloud	sandbox/transforms_map_body_ptcl_pt_animate.py	/^    def generate_point_cloud(self):$/;"	m	class:AnimatedUAVPublisher
+generate_point_cloud	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def generate_point_cloud(self):$/;"	m	class:AnimatedUAVPublisher
+generate_point_cloud	sandbox/uav_trajectory_obstacle_pub.py	/^    def generate_point_cloud(self):$/;"	m	class:UAVPublisher
+generate_point_cloud	sandbox/uav_trajectory_pub.py	/^    def generate_point_cloud(self):$/;"	m	class:UAVPublisher
+generate_point_cloud_	sandbox/uav_trajectory_obstacle_pub.py	/^    def generate_point_cloud_(self):$/;"	m	class:UAVPublisher
+get_commands	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def get_commands(pkg_name, prefix, primary_extension, additional_extension):$/;"	f
+get_commands	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def get_commands(pkg_name, prefix, primary_extension, additional_extension):$/;"	f
+get_commands	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def get_commands(pkg_name, prefix, primary_extension, additional_extension):$/;"	f
+get_commands	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def get_commands(pkg_name, prefix, primary_extension, additional_extension):$/;"	f
+get_current_rotation	sandbox/test.py	/^    def get_current_rotation(self):$/;"	m	class:UAVPublisher
+get_current_rotation	sandbox/uav_trajectory_obstacle_pub.py	/^    def get_current_rotation(self):$/;"	m	class:UAVPublisher
+get_packages	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def get_packages(prefix_path, merged_install):$/;"	f
+get_packages	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def get_packages(prefix_path, merged_install):$/;"	f
+get_packages	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def get_packages(prefix_path, merged_install):$/;"	f
+get_packages	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def get_packages(prefix_path, merged_install):$/;"	f
+get_yaw	sandbox/map_sub_show.py	/^    def get_yaw(self, transform):$/;"	m	class:MapPointPublisher
+git repos and tutorials	README.md	/^# git repos and tutorials$/;"	c
+handle_dsv_types_except_source	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def handle_dsv_types_except_source(type_, remainder, prefix):$/;"	f
+handle_dsv_types_except_source	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def handle_dsv_types_except_source(type_, remainder, prefix):$/;"	f
+handle_dsv_types_except_source	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def handle_dsv_types_except_source(type_, remainder, prefix):$/;"	f
+handle_dsv_types_except_source	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def handle_dsv_types_except_source(type_, remainder, prefix):$/;"	f
+header	PointCloud/pointCloudPublisher.py	/^    header = Header()$/;"	v	class:PointCloudPublisher
+headerDisparity	depthai_luxonis/mono_dispar_pub.py	/^        headerDisparity = Header()$/;"	v
+headerLeft	depthai_luxonis/mono_dispar_pub.py	/^        headerLeft = Header()$/;"	v
+heading,headings	.ctags	/^--regex-mymarkdown=\/^[ ]*#[ ](.*)\/\\1\/h,heading,headings\/$/;"	k	langdef:mymarkdown
+height	PointCloud/pointCloudPublisher.py	/^    height = 100$/;"	v	class:PointCloudPublisher
+how to use	examples/README_examples.md	/^## how to use$/;"	s	chapter:examples
+id	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^    id = 0$/;"	v
+id	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^    id = 0$/;"	v
+id	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^    id = 0$/;"	v
+id	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^    id = 0$/;"	v
+imgDisparity	depthai_luxonis/mono_dispar_pub.py	/^        imgDisparity = Image()$/;"	v
+imgLeft	depthai_luxonis/mono_dispar_pub.py	/^        imgLeft = Image()$/;"	v
+img_cvbridge_node	examples/cpp/cv_bridge_helloworld/CMakeLists.txt	/^add_executable(img_cvbridge_node src\/img_cvbridge_node.cpp)$/;"	t
+img_pub	depthai_luxonis/mono_dispar_pub.py	/^img_pub = node.create_publisher(Image, "\/oak\/mono_left", 1)$/;"	v
+import local package or module	README.md	/^## import local package or module$/;"	s	chapter:Using ROS with python
+importlib_load_entry_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker/rvizmarker	/^def importlib_load_entry_point(spec, group, name):$/;"	f
+importlib_load_entry_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/rviz_marker/rviztest	/^def importlib_load_entry_point(spec, group, name):$/;"	f
+importlib_load_entry_point	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/py_pubsub/listener	/^def importlib_load_entry_point(spec, group, name):$/;"	f
+importlib_load_entry_point	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/py_pubsub/talker	/^def importlib_load_entry_point(spec, group, name):$/;"	f
+inDisparity	depthai_luxonis/mono_dispar_pub.py	/^        inDisparity = qDisparity.get()$/;"	v
+inLeft	depthai_luxonis/mono_dispar_pub.py	/^        inLeft = qLeft.get()$/;"	v
+install colcon	README.md	/^## install colcon$/;"	s	chapter:How-To
+installation	README.md	/^### installation$/;"	S	section:ROS2 and opencv""cv_bridge
+listener_callback	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py	/^    def listener_callback(self, msg):$/;"	m	class:MinimalSubscriber
+listener_callback	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py	/^    def listener_callback(self, msg):$/;"	m	class:MinimalSubscriber
+listener_callback	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/subscriber_member_function.py	/^    def listener_callback(self, msg):$/;"	m	class:MinimalSubscriber
+main	PointCloud/pointCloudPublisher.py	/^def main(args=None):$/;"	f
+main	depthai_luxonis/mono_dispar_sub.py	/^def main(args=None):$/;"	f
+main	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^int main(int argc, char *argv[]) {$/;"	f	typeref:typename:int
+main	examples/python/img_cvbridge.py	/^def main(args=None):$/;"	f
+main	examples/python/polygon_msg.py	/^def main(args=None):$/;"	f
+main	examples/python/polygon_msg_rviz2.py	/^def main(args=None):$/;"	f
+main	examples/python/polygon_simpleline_msg.py	/^def main(args=None):$/;"	f
+main	examples/python/rviz_marker_tuto.py	/^def main(args=None):$/;"	f
+main	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^def main(args=None):$/;"	f
+main	examples/python/show_sphere.py	/^def main(args=None):$/;"	f
+main	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^def main(args=None):$/;"	f
+main	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def main(argv=sys.argv[1:]):  # noqa: D103$/;"	f
+main	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def main(argv=sys.argv[1:]):  # noqa: D103$/;"	f
+main	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^def main(args=None):$/;"	f
+main	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^def main(args=None):$/;"	f
+main	rviz/show_polar_histogram/polar_hist_pub.py	/^def main(args=None):$/;"	f
+main	rviz/show_polar_histogram/polar_hist_pub_as_ptcl.py	/^def main(args=None):$/;"	f
+main	rviz/show_polar_histogram/polar_hist_pub_as_ptcl_lines.py	/^def main(args=None):$/;"	f
+main	sandbox/map_sub_show.py	/^def main(args=None):$/;"	f
+main	sandbox/test.py	/^def main(args=None):$/;"	f
+main	sandbox/transforms_map_body_ptcl_point.py	/^def main(args=None):$/;"	f
+main	sandbox/transforms_map_body_ptcl_pt_animate.py	/^def main(args=None):$/;"	f
+main	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^def main(args=None):$/;"	f
+main	sandbox/uav_trajectory_obstacle_pub.py	/^def main(args=None):$/;"	f
+main	sandbox/uav_trajectory_pub.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def main(argv=sys.argv[1:]):  # noqa: D103$/;"	f
+main	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def main(argv=sys.argv[1:]):  # noqa: D103$/;"	f
+main	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/publisher_member_function.py	/^def main(args=None):$/;"	f
+main	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/subscriber_member_function.py	/^def main(args=None):$/;"	f
+managing packages, virtual environment	README.md	/^## managing packages, virtual environment$/;"	s	chapter:Using ROS with python
+manipLeft	depthai_luxonis/mono_dispar_pub.py	/^manipLeft = pipeline.create(dai.node.ImageManip)$/;"	v
+manipRight	depthai_luxonis/mono_dispar_pub.py	/^manipRight = pipeline.create(dai.node.ImageManip)$/;"	v
+marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^    marker = Marker()$/;"	v
+marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^    marker = Marker()$/;"	v
+marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^    marker = Marker()$/;"	v
+marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^    marker = Marker()$/;"	v
+markerArray	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^markerArray = MarkerArray()$/;"	v
+markerArray	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^markerArray = MarkerArray()$/;"	v
+markerArray	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^markerArray = MarkerArray()$/;"	v
+markerArray	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^markerArray = MarkerArray()$/;"	v
+monoLeft	depthai_luxonis/mono_dispar_pub.py	/^monoLeft = pipeline.create(dai.node.MonoCamera)$/;"	v
+monoRight	depthai_luxonis/mono_dispar_pub.py	/^monoRight = pipeline.create(dai.node.MonoCamera)$/;"	v
+mono_callback	depthai_luxonis/mono_dispar_sub.py	/^    def mono_callback(self, msg):$/;"	m	class:DualImageSubscriber
+monochrome_callback	depthai_luxonis/mono_dispar_sub.py	/^    def monochrome_callback(self, msg):$/;"	m	class:DualImageSubscriber_cvbridge
+moving	PointCloud/pointCloudPublisher.py	/^    moving = True$/;"	v	class:PointCloudPublisher
+msg_	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  sensor_msgs::msg::Image::SharedPtr msg_;$/;"	m	class:MinimalImagePublisher	typeref:typename:sensor_msgs::msg::Image::SharedPtr	file:
+mymarkdown	.ctags	/^--langdef=mymarkdown$/;"	l
+nav2 crash course (video)	README.md	/^## nav2 crash course (video)$/;"	s	chapter:git repos and tutorials
+node	depthai_luxonis/mono_dispar_pub.py	/^node = rclpy.create_node('oakd')$/;"	v
+node	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^node = rclpy.create_node('sos_publisher')$/;"	v
+node	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^node = rclpy.create_node('sos_publisher')$/;"	v
+node	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^node = rclpy.create_node('sos_publisher')$/;"	v
+node	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^node = rclpy.create_node('sos_publisher')$/;"	v
+nodes	README.md	/^## nodes$/;"	s	chapter:Tutorials
+np	PointCloud/pointCloudPublisher.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	depthai_luxonis/mono_dispar_pub.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	depthai_luxonis/mono_dispar_sub.py	/^    import numpy as np$/;"	I	nameref:module:numpy
+np	examples/python/img_cvbridge.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	examples/python/polygon_simpleline_msg.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	rviz/show_polar_histogram/polar_hist_pub.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	rviz/show_polar_histogram/polar_hist_pub_as_ptcl.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	rviz/show_polar_histogram/polar_hist_pub_as_ptcl_lines.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/map_sub_show.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/test.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/transforms_map_body_ptcl_point.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/transforms_map_body_ptcl_pt_animate.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/uav_trajectory_obstacle_pub.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	sandbox/uav_trajectory_pub.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	utils/get_image_from_rosbag.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	utils/get_image_from_rosbag_1.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	utils/get_image_from_rosbag_2.py	/^import numpy as np$/;"	I	nameref:module:numpy
+order_packages	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def order_packages(packages):$/;"	f
+order_packages	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def order_packages(packages):$/;"	f
+order_packages	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def order_packages(packages):$/;"	f
+order_packages	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def order_packages(packages):$/;"	f
+other example to consider	examples/README_examples.md	/^### other example to consider$/;"	S	section:examples""using cv_bridge
+output_file	utils/get_image_from_rosbag.py	/^    output_file = 'extracted_frame.jpg'$/;"	v
+output_file	utils/get_image_from_rosbag_1.py	/^    output_file = 'extracted_frame.jpg'$/;"	v
+package_name	examples/python/rviz_marker_tuto_pkg/rviz_marker/setup.py	/^package_name = 'rviz_marker'$/;"	v
+package_name	rviz/sandbox/rviz_marker/setup.py	/^package_name = 'rviz_marker'$/;"	v
+package_name	tutorials/simple_publisher_subscriber/src/py_pubsub/setup.py	/^package_name = 'py_pubsub'$/;"	v
+packages for specific IMUs	README_imu.md	/^## packages for specific IMUs$/;"	s	chapter:using IMUs with ROS2
+pc2	sandbox/test.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+pc2	sandbox/transforms_map_body_ptcl_point.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+pc2	sandbox/transforms_map_body_ptcl_pt_animate.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+pc2	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+pc2	sandbox/uav_trajectory_obstacle_pub.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+pc2	sandbox/uav_trajectory_pub.py	/^import sensor_msgs_py.point_cloud2 as pc2$/;"	I	nameref:module:sensor_msgs_py.point_cloud2
+picamera_ros2	README_packages_nodes.md	/^## picamera_ros2$/;"	s	chapter:explored packages
+pipeline	depthai_luxonis/mono_dispar_pub.py	/^pipeline = dai.Pipeline()$/;"	v
+play ros2 bag recorded on jazzy from humble	README.md	/^## play ros2 bag recorded on jazzy from humble$/;"	s	chapter:How-To
+point_step	PointCloud/pointCloudPublisher.py	/^    point_step = 16$/;"	v	class:PointCloudPublisher
+pos_orient	examples/python/rviz_marker_tuto.py	/^    def pos_orient(self,pospt,orient):$/;"	m	class:Arrow
+pos_orient	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def pos_orient(self,pospt,orient):$/;"	m	class:Arrow
+pos_orient	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def pos_orient(self,pospt,orient):$/;"	m	class:Arrow
+pos_orient	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def pos_orient(self,pospt,orient):$/;"	m	class:Arrow
+pos_orient	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def pos_orient(self,pospt,orient):$/;"	m	class:Arrow
+process_dsv_file	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def process_dsv_file($/;"	f
+process_dsv_file	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def process_dsv_file($/;"	f
+process_dsv_file	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def process_dsv_file($/;"	f
+process_dsv_file	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def process_dsv_file($/;"	f
+process_images	depthai_luxonis/mono_dispar_sub.py	/^    def process_images(self):$/;"	m	class:DualImageSubscriber
+process_images	depthai_luxonis/mono_dispar_sub.py	/^    def process_images(self):$/;"	m	class:DualImageSubscriber_cvbridge
+program	examples/python/img_cvbridge.py	/^class program(Node):$/;"	c
+publish_all	sandbox/transforms_map_body_ptcl_point.py	/^    def publish_all(self):$/;"	m	class:PointCloudAndMapPointPublisher
+publish_body_transform	sandbox/transforms_map_body_ptcl_point.py	/^    def publish_body_transform(self):$/;"	m	class:PointCloudAndMapPointPublisher
+publish_body_transform	sandbox/transforms_map_body_ptcl_pt_animate.py	/^    def publish_body_transform(self, current_position, roll=0.0, pitch=0.0, yaw=0.0):$/;"	m	class:AnimatedUAVPublisher
+publish_body_transform	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def publish_body_transform(self, current_position, roll=0.0, pitch=0.0, yaw=0.0):$/;"	m	class:AnimatedUAVPublisher
+publish_body_transform	sandbox/uav_trajectory_obstacle_pub.py	/^    def publish_body_transform(self, current_position, roll=0.0, pitch=0.0, yaw=0.0):$/;"	m	class:UAVPublisher
+publish_body_transform	sandbox/uav_trajectory_pub.py	/^    def publish_body_transform(self, current_position, roll=0.0, pitch=0.0, yaw=0.0):$/;"	m	class:UAVPublisher
+publish_cloud	sandbox/transforms_map_body_ptcl_point.py	/^    def publish_cloud(self):$/;"	m	class:PointCloudAndMapPointPublisher
+publish_full_obstacle	sandbox/test.py	/^    def publish_full_obstacle(self):$/;"	m	class:UAVPublisher
+publish_full_obstacle	sandbox/uav_trajectory_obstacle_pub.py	/^    def publish_full_obstacle(self):$/;"	m	class:UAVPublisher
+publish_histogram	rviz/show_polar_histogram/polar_hist_pub.py	/^    def publish_histogram(self):$/;"	m	class:PolarHistogramPublisher
+publish_histogram	rviz/show_polar_histogram/polar_hist_pub_as_ptcl.py	/^    def publish_histogram(self):$/;"	m	class:PolarHistogramPointCloudPublisher
+publish_histogram	rviz/show_polar_histogram/polar_hist_pub_as_ptcl_lines.py	/^    def publish_histogram(self):$/;"	m	class:PolarHistogramVisualization
+publish_line	examples/python/polygon_simpleline_msg.py	/^    def publish_line(self):$/;"	m	class:LinePolygonExample
+publish_linelist	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist(self,namespc):$/;"	m	class:LineList2
+publish_linelist	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist(self,namespc):$/;"	m	class:LineList2
+publish_linelist	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist(self,namespc):$/;"	m	class:LineList2
+publish_linelist_pt	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt(self,namespc,pts1,pts2):$/;"	m	class:LineList2
+publish_linelist_pt	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt(self,namespc,pts1,pts2):$/;"	m	class:LineList2
+publish_linelist_pt	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt(self,namespc,pts1,pts2):$/;"	m	class:LineList2
+publish_linelist_pt2	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt2(self,namespc,curid,pts1,pts2):$/;"	m	class:LineList2
+publish_linelist_pt2	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt2(self,namespc,curid,pts1,pts2):$/;"	m	class:LineList2
+publish_linelist_pt2	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_linelist_pt2(self,namespc,curid,pts1,pts2):$/;"	m	class:LineList2
+publish_map_point	sandbox/map_sub_show.py	/^    def publish_map_point(self):$/;"	m	class:MapPointPublisher
+publish_map_point	sandbox/transforms_map_body_ptcl_point.py	/^    def publish_map_point(self):$/;"	m	class:PointCloudAndMapPointPublisher
+publish_map_point	sandbox/transforms_map_body_ptcl_pt_animate.py	/^    def publish_map_point(self):$/;"	m	class:AnimatedUAVPublisher
+publish_map_point	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def publish_map_point(self):$/;"	m	class:AnimatedUAVPublisher
+publish_marker	examples/python/polygon_msg_rviz2.py	/^    def publish_marker(self):$/;"	m	class:PolygonMarkerExample
+publish_marker	examples/python/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Arrow
+publish_marker	examples/python/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	examples/python/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:BalloonList
+publish_marker	examples/python/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList
+publish_marker	examples/python/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineStrip
+publish_marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Arrow
+publish_marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:BalloonList
+publish_marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList
+publish_marker	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineStrip
+publish_marker	examples/python/show_sphere.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Arrow
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:BalloonList
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList2
+publish_marker	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineStrip
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Arrow
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:BalloonList
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList2
+publish_marker	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineStrip
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Arrow
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:Balloon
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:BalloonList
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineList2
+publish_marker	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_marker(self):$/;"	m	class:LineStrip
+publish_point	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def publish_point(self):$/;"	m	class:MyPointStamped
+publish_point	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def publish_point(self):$/;"	m	class:MyPointStamped
+publish_point	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def publish_point(self):$/;"	m	class:MyPointStamped
+publish_polygon	examples/python/polygon_msg.py	/^    def publish_polygon(self):$/;"	m	class:PolygonExample
+publish_trajectory_point	sandbox/uav_simu_trajectory_ptcl_map_body.py	/^    def publish_trajectory_point(self, position):$/;"	m	class:AnimatedUAVPublisher
+publish_trajectory_point	sandbox/uav_trajectory_obstacle_pub.py	/^    def publish_trajectory_point(self, position):$/;"	m	class:UAVPublisher
+publish_trajectory_point	sandbox/uav_trajectory_pub.py	/^    def publish_trajectory_point(self, position):$/;"	m	class:UAVPublisher
+publisher	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^publisher = node.create_publisher(MarkerArray,topic,10)$/;"	v
+publisher	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^publisher = node.create_publisher(MarkerArray,topic,10)$/;"	v
+publisher	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^publisher = node.create_publisher(MarkerArray,topic,10)$/;"	v
+publisher	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^publisher = node.create_publisher(MarkerArray,topic,10)$/;"	v
+publisher_	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;$/;"	m	class:MinimalImagePublisher	typeref:typename:rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr	file:
+pyhon	examples/README_examples.md	/^### pyhon$/;"	S	section:examples""how to use
+python	README_packages_nodes.md	/^## python$/;"	s	chapter:create a package
+python	examples/README_examples.md	/^### python$/;"	S	section:examples""using cv_bridge
+qDisparity	depthai_luxonis/mono_dispar_pub.py	/^    qDisparity = device.getOutputQueue(name="disparity", maxSize=4, blocking=False)$/;"	v
+qLeft	depthai_luxonis/mono_dispar_pub.py	/^    qLeft = device.getOutputQueue(name="left", maxSize=4, blocking=False)$/;"	v
+rate	PointCloud/pointCloudPublisher.py	/^    rate = 30$/;"	v	class:PointCloudPublisher
+rc	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^        rc = 1$/;"	v
+rc	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^        rc = 1$/;"	v
+rc	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^        rc = 1$/;"	v
+rc	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^        rc = 1$/;"	v
+record rosbags	README.md	/^## record rosbags$/;"	s	chapter:How-To
+reduce_cycle_set	rviz/sandbox/rviz_marker/install/_local_setup_util_ps1.py	/^def reduce_cycle_set(packages):$/;"	f
+reduce_cycle_set	rviz/sandbox/rviz_marker/install/_local_setup_util_sh.py	/^def reduce_cycle_set(packages):$/;"	f
+reduce_cycle_set	tutorials/simple_publisher_subscriber/install/_local_setup_util_ps1.py	/^def reduce_cycle_set(packages):$/;"	f
+reduce_cycle_set	tutorials/simple_publisher_subscriber/install/_local_setup_util_sh.py	/^def reduce_cycle_set(packages):$/;"	f
+ros bags convertions	README.md	/^## ros bags convertions$/;"	s	chapter:How-To
+rosbags	README.md	/^# rosbags$/;"	c
+save_frame_from_rosbag	utils/get_image_from_rosbag.py	/^def save_frame_from_rosbag(bag_path, image_topic, output_filename, frame_number=0):$/;"	f
+save_frame_from_rosbag	utils/get_image_from_rosbag_1.py	/^def save_frame_from_rosbag(bag_path, image_topic, output_filename, frame_number=0):$/;"	f
+set_ns	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def set_ns(self,namespc):$/;"	m	class:LineList
+set_ns	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def set_ns(self,namespc):$/;"	m	class:LineList
+set_ns	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def set_ns(self,namespc):$/;"	m	class:LineList
+set_ns	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def set_ns(self,namespc):$/;"	m	class:LineList
+show	examples/python/img_cvbridge.py	/^    def show(self):$/;"	m	class:program
+start_end	examples/python/rviz_marker_tuto.py	/^    def start_end(self,startpt,endpt):$/;"	m	class:Arrow
+start_end	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def start_end(self,startpt,endpt):$/;"	m	class:Arrow
+start_end	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_marker_tuto.py	/^    def start_end(self,startpt,endpt):$/;"	m	class:Arrow
+start_end	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_marker_tuto.py	/^    def start_end(self,startpt,endpt):$/;"	m	class:Arrow
+start_end	rviz/sandbox/rviz_marker/rviz_marker/rviz_marker_tuto.py	/^    def start_end(self,startpt,endpt):$/;"	m	class:Arrow
+stereo	depthai_luxonis/mono_dispar_pub.py	/^stereo = pipeline.create(dai.node.StereoDepth)$/;"	v
+swarm	README_UAV.md	/^## swarm $/;"	s	chapter:PX4
+test_copyright	rviz/sandbox/rviz_marker/test/test_copyright.py	/^def test_copyright():$/;"	f
+test_copyright	tutorials/simple_publisher_subscriber/src/py_pubsub/test/test_copyright.py	/^def test_copyright():$/;"	f
+test_flake8	rviz/sandbox/rviz_marker/test/test_flake8.py	/^def test_flake8():$/;"	f
+test_flake8	tutorials/simple_publisher_subscriber/src/py_pubsub/test/test_flake8.py	/^def test_flake8():$/;"	f
+test_pep257	rviz/sandbox/rviz_marker/test/test_pep257.py	/^def test_pep257():$/;"	f
+test_pep257	tutorials/simple_publisher_subscriber/src/py_pubsub/test/test_pep257.py	/^def test_pep257():$/;"	f
+time stamp mismatch	README.md	/^## time stamp mismatch$/;"	s	chapter:Error messages and solutions
+timer_	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  rclcpp::TimerBase::SharedPtr timer_;$/;"	m	class:MinimalImagePublisher	typeref:typename:rclcpp::TimerBase::SharedPtr	file:
+timer_callback	PointCloud/pointCloudPublisher.py	/^    def timer_callback(self):$/;"	m	class:PointCloudPublisher
+timer_callback	examples/cpp/cv_bridge_helloworld/img_cvbridge_node.cpp	/^  void timer_callback() {$/;"	f	class:MinimalImagePublisher	typeref:typename:void	file:
+timer_callback	tutorials/simple_publisher_subscriber/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py	/^    def timer_callback(self):$/;"	m	class:MinimalPublisher
+timer_callback	tutorials/simple_publisher_subscriber/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py	/^    def timer_callback(self):$/;"	m	class:MinimalPublisher
+timer_callback	tutorials/simple_publisher_subscriber/src/py_pubsub/py_pubsub/publisher_member_function.py	/^    def timer_callback(self):$/;"	m	class:MinimalPublisher
+topic	examples/python/rviz_marker_tuto_pkg/rviz_marker/rviz_marker/rviz_test2.py	/^topic = 'visu_marker_array'$/;"	v
+topic	rviz/sandbox/rviz_marker/build/rviz_marker/build/lib/rviz_marker/rviz_test2.py	/^topic = 'visu_marker_array'$/;"	v
+topic	rviz/sandbox/rviz_marker/install/rviz_marker/lib/python3.10/site-packages/rviz_marker/rviz_test2.py	/^topic = 'visu_marker_array'$/;"	v
+topic	rviz/sandbox/rviz_marker/rviz_marker/rviz_test2.py	/^topic = 'visu_marker_array'$/;"	v
+trajectory_callback	sandbox/map_sub_show.py	/^    def trajectory_callback(self, msg):$/;"	m	class:MapPointPublisher
+transform_map_to_body	sandbox/test.py	/^    def transform_map_to_body(self, point_map, quaternion):$/;"	m	class:UAVPublisher
+transform_map_to_body	sandbox/uav_trajectory_obstacle_pub.py	/^    def transform_map_to_body(self, point_map, quaternion):$/;"	m	class:UAVPublisher
+turtlesim	README.md	/^## turtlesim$/;"	s	chapter:Tutorials
+usage	README.md	/^### usage$/;"	S	section:ROS2 and opencv""cv_bridge
+using IMUs with ROS2	README_imu.md	/^# using IMUs with ROS2$/;"	c
+using cv_bridge	examples/README_examples.md	/^## using cv_bridge$/;"	s	chapter:examples
+using docker.	README_RPi.md	/^### using docker.$/;"	S	section:Installing ROS on the raspberry pi""On a RPi running RaspberryPi OS
+using:	README.md	/^### using:$/;"	S	section:Plugins""PlotJuggler
+visualization topics	examples/README_examples.md	/^## visualization topics$/;"	s	chapter:examples
+visualize_line_polygon	examples/python/polygon_simpleline_msg.py	/^    def visualize_line_polygon(self, points):$/;"	m	class:LinePolygonExample
+when updating: error key	README.md	/^## when updating: error key$/;"	s	chapter:Error messages and solutions
+width	PointCloud/pointCloudPublisher.py	/^    width = 100$/;"	v	class:PointCloudPublisher
+workspaces	README.md	/^## workspaces$/;"	s	chapter:Tutorials
+xoutDisparity	depthai_luxonis/mono_dispar_pub.py	/^xoutDisparity = pipeline.create(dai.node.XLinkOut)$/;"	v
+xoutLeft	depthai_luxonis/mono_dispar_pub.py	/^xoutLeft = pipeline.create(dai.node.XLinkOut)$/;"	v
